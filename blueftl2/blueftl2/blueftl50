@@ -1,0 +1,34 @@
+Filesystem label=
+OS type: Linux
+Block size=2048 (log=1)
+Fragment size=2048 (log=1)
+Stride=1 blocks, Stripe width=0 blocks
+32768 inodes, 65536 blocks
+3276 blocks (5.00%) reserved for the super user
+First data block=0
+Maximum filesystem blocks=67108864
+4 block groups
+16384 blocks per group, 16384 fragments per group
+8192 inodes per group
+Superblock backups stored on blocks: 
+	16384, 49152
+
+Writing inode tables: 0/41/42/43/4done                            
+Writing superblocks and filesystem accounting information: done
+
+This filesystem will be automatically checked every 35 mounts or
+180 days, whichever comes first.  Use tune2fs -c or -i to override.
+[  115.553103] bluessd: # of pages per block = 64
+[  115.553104] bluessd: page size  = 2048 bytes
+[  115.553105] bluessd: oob size = 64 bytes
+[  115.553106] bluessd: =====================================================================
+[  561.369590] blueftl_netlink_input
+[  561.369592] blueftl_netlink_process
+[  605.107726] blueftl_netlink_input
+[  605.107727] blueftl_netlink_process
+[  617.385002] EXT2-fs error (device blueSSD): ext2_check_page: bad entry in directory #2: : unaligned directory entry - offset=0, inode=1634230132, rec_len=26739, name_len=0
+[  617.385027] EXT2-fs error (device blueSSD): ext2_new_inode: reserved inode or inode > inodes count - block_group = 0,inode=1
+format_version,bonnie_version,name,file_size,io_chunk_size,putc,putc_cpu,put_block,put_block_cpu,rewrite,rewrite_cpu,getc,getc_cpu,get_block,get_block_cpu,seeks,seeks_cpu,num_files,max_size,min_size,num_dirs,file_chunk_size,seq_create,seq_create_cpu,seq_stat,seq_stat_cpu,seq_del,seq_del_cpu,ran_create,ran_create_cpu,ran_stat,ran_stat_cpu,ran_del,ran_del_cpu,putc_latency,put_block_latency,rewrite_latency,getc_latency,get_block_latency,seeks_latency,seq_create_latency,seq_stat_latency,seq_del_latency,ran_create_latency,ran_stat_latency,ran_del_latency
+1.96,1.96,ssd-desktop,1,1491975127,100M,1k,975,84,+++++,+++,191168,42,5514,96,+++++,+++,+++++,+++,20,,,,,5246,84,+++++,+++,40547,33,5770,85,+++++,+++,14641,74,42083us,3886us,3265us,3805us,3315us,2824us,5180us,126us,4033us,2659us,3183us,4223us
+1.96,1.96,ssd-desktop,1,1491975127,100M,1k,1027,98,187220,42,187244,40,5566,99,+++++,+++,+++++,+++,20,,,,,5448,85,+++++,+++,+++++,+++,5596,84,+++++,+++,14911,74,3652us,5985us,4071us,2777us,2594us,3168us,4992us,1913us,4148us,2583us,2146us,4132us
+1.96,1.96,ssd-desktop,1,1491975127,100M,1k,986,97,163479,41,179959,40,4745,95,+++++,+++,+++++,+++,20,,,,,5383,85,+++++,+++,+++++,+++,5690,85,+++++,+++,15119,73,3489us,4094us,2903us,2580us,2486us,2496us,4188us,1586us,5661us,2825us,1095us,5029us

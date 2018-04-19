@@ -1,0 +1,15 @@
+cd src_dualpool5
+./mke > ../_dualpool5 &
+cd ..
+./test
+
+cd src_dualpool50
+./mke > ../_dualpool50 &
+cd ..
+./test
+
+cd src_dualpool50000
+./mke > ../_dualpool50000 &
+cd ..
+./test
+
