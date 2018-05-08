@@ -1,0 +1,54 @@
+/*************************************************************************
+	> File Name: CountingNetwork.c
+	> Author: ma6174
+	> Mail: ma6174@163.com 
+	> Created Time: 2012년 11월 26일 (월) 오전 01시 42분 42초
+ ************************************************************************/
+
+#include"CountingNetwork.h"
+#define interative 1
+#define net_width 8
+void *Func();
+int wire[1024];
+struct Bitonic bitonic;
+int main(int argc,char *argv[])
+{
+//	int thread_cnt=atoi(argv[1]);
+	int i,sum;
+	int thread_cnt=1;
+	pthread_t thread[thread_cnt];
+//	init_bitonic(&bitonic,net_width);
+	for(i=0;i<thread_cnt;i++)
+	{
+		pthread_create(&thread[i],NULL,Func,NULL);
+	}
+	for(i=0;i<thread_cnt;i++)
+	{
+		pthread_join(thread[i],NULL);
+	}
+/*	for(i=0;i<net_width;i++)
+	{
+		sum+=wire[i];
+		printf("wire[%d]:%d\n",i,wire[i]);
+	}
+	printf("sum of wires\n",sum);
+	printf("sum:%d*%d=%d\n",thread_cnt,interative,thread_cnt*interative);*/
+	return 0;
+}
+void *Func()
+{	
+	int i,input,output;
+/*	for(i=0;i<interative;i++)
+	{
+		input=rand()%net_width;
+	//	input=2;
+			printf("input in Func:%d\n",input);
+		output=traverse_bitonic(&bitonic,input);
+			printf("output of Func:%d\n",output);
+		__sync_fetch_and_add(&wire[output],1);	
+	}*/
+	struct Merger m;
+	init_merger(&m,8);
+//	output=traverse_merger(&m,3);
+//	printf("output of Func:%d\n",output);
+}

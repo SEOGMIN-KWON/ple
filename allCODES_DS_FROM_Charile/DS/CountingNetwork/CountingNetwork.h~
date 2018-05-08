@@ -1,0 +1,133 @@
+/*************************************************************************
+	> File Name: CountingNetwork.h
+	> Author: ma6174
+	> Mail: ma6174@163.com 
+	> Created Time: 2012년 11월 26일 (월) 오전 01시 56분 38초
+ ************************************************************************/
+#include<stdio.h>
+#include<malloc.h>
+#include<stdlib.h>
+#include<pthread.h>
+#include<unistd.h>
+#define true 1
+#define false 0
+#define INFI 128
+struct Balancer
+{
+	int toggle;
+	pthread_mutex_t lock_b;
+};
+struct Merger
+{
+	struct Merger *half[2];
+	struct Balancer *layer[INFI];
+	int width;
+};
+struct Bitonic
+{
+	struct Bitonic *half[2];
+	struct Merger *merger;
+	int width;
+
+};
+int traverse_balancer(struct Balancer *balancer)
+{
+	pthread_mutex_lock(&(balancer->lock_b));
+	printf("in traverse balancer\n");
+	if(balancer->toggle==true)
+	{
+		balancer->toggle=false;
+		pthread_mutex_unlock(&(balancer->lock_b));
+		printf("return 0000000000000000000000000000000000000000000000000000000000\n");
+		return 0;
+	}
+	else
+	{
+		balancer->toggle=true;
+		pthread_mutex_unlock(&(balancer->lock_b));
+		printf("return 1111111111111111111111111111111111111111111111111111111111111\n");
+		return 1;
+	}
+}
+void init_balancer(struct Balancer *b)
+{
+	b->toggle=true;
+}
+void init_merger(struct Merger *m,int myWidth)
+{
+	int i,j;
+	m->width=myWidth;
+	printf("m->width:%d\n",myWidth);
+	static struct Balancer balancer[INFI];
+	for(i=0;i<(m->width)/2;i++)
+	{
+		init_balancer(&balancer[i]);
+		m->layer[i]=&(balancer[i]);
+	}
+	if(m->width>2)
+	{
+		static struct Merger merger[2];
+		for(j=0;j<2;j++)
+		{ 
+			m->half[j]=&merger[j];
+			init_merger(m->half[j],(m->width)/2);
+		}
+	}
+}
+int traverse_merger(struct Merger * m,int input)
+{
+	int output=0;
+	printf("in traverse_merger:%x input%d,width:%x,layer:%x\n",m,input,m->width,m->layer[0]);
+	if(m->width==2)
+	{
+		output=traverse_balancer(m->layer[0]);
+		return output;
+	}
+	else
+	{
+		if(input<(m->width)/2)
+		{
+			output=traverse_merger(m->half[input%2],input/2);
+			printf("output in traverse_merger upper:%d\n",output);
+		}
+		else
+		{
+			output=traverse_merger(m->half[1-input%2],input/2);
+			printf("output in traverse_merger bellower:%d\n",output);
+		}
+	}
+			return (2*output)+traverse_balancer(m->layer[output]);
+}
+int init_bitonic(struct Bitonic *b,int myWidth)
+{
+	int i;
+  //  struct Merger *m=(struct Merger*)malloc(sizeof(struct Merger));
+	static struct Merger m;
+	b->width=myWidth;
+	b->merger=&m;
+	init_merger(b->merger,b->width);
+	if(b->width>2)
+	{
+		static struct Bitonic bt[2];
+		for(i=0;i<2;i++)
+		{
+			b->half[i]=&bt[i];
+			init_bitonic(b->half[i],(b->width)/2);
+		}
+	}
+
+}
+int traverse_bitonic(struct Bitonic *b,int input)
+{
+	printf("in traverse_bitonic,b->width:%d input:%d,b->half[0]:%x\n",b->width,input,b->half[0]);
+	int output=0;
+	int input_merger=0;
+	if(b->width>2)
+	{
+		output=traverse_bitonic(b->half[input/((b->width)/2)],input/2);
+		printf("output:%dasdfsadfasdfasdfahjsdflkhasdkjfhaskdjhfkjsadhfkjsahdfkjha\n",output);
+	}
+	input_merger=(input>=(b->width)/2?(b->width)/2: 0)+output;
+	printf("input_merger%d\n",input_merger);
+	return traverse_merger(b->merger,input_merger);
+}

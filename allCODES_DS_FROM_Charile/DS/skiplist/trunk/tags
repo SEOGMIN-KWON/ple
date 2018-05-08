@@ -1,0 +1,685 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A16_32kB	runtime/mem_class_calc.c	/^static uint16_t A16_32kB[] = { 144,      176, 208,      240, 272, 320, 368, 416, 464,      512, 576, 640, 704, 768, 832, 896, 960, 1024 };$/;"	v	file:
+A16_4kB	runtime/mem_class_calc.c	/^static uint8_t A16_4kB[] = {                        16,             32,     48,     64,     80, 96, 112,      128 };$/;"	v	file:
+A1_256kB	runtime/mem_class_calc.c	/^static uint16_t  A1_256kB[] = { 1152, 1297, 1458,       1636, 1832, 2048, 2284,       2541, 2820, 3124, 3550, 3904, 4280, 4676, 5092,       5525, 5974, 6435, 6906, 7380, 7856 };$/;"	v	file:
+A1_32kB	runtime/mem_class_calc.c	/^static uint16_t  A1_32kB[] = { 137, 156, 178, 201, 227, 256, 288, 323, 361, 402, 447, 494, 545, 598, 654, 712, 771, 832, 895, 958, 1022 };$/;"	v	file:
+A1_4kB	runtime/mem_class_calc.c	/^static uint8_t  A1_4kB[] = { 2, 3, 5, 7, 9, 11, 14, 17, 20, 24, 28, 33, 39, 46, 53, 62, 70, 80, 91, 105, 120, 128 };$/;"	v	file:
+A2_4kB	runtime/mem_class_calc.c	/^static uint8_t  A2_4kB[] = { 2,    4, 6, 8, 10, 14, 18, 22,     28, 34, 40, 48, 56, 66, 74, 84, 94, 104, 120, 128 };$/;"	v	file:
+A4_4kB	runtime/mem_class_calc.c	/^static uint8_t  A4_4kB[] = {       4,    8, 12,     16, 20, 24,     32, 40, 48, 56, 68,     80, 92, 104, 120, 128 };$/;"	v	file:
+A64_256kB	runtime/mem_class_calc.c	/^static uint16_t A64_256kB[] = { 1152, 1280, 1408, 1536, 1664, 1856, 2048, 2240, 2432, 2688, 2944, 3200, 3520, 3840, 4160, 4544, 4928, 5312, 5696, 6144, 6592, 7040, 7488, 7936 };$/;"	v	file:
+A64_2MB	runtime/mem_class_calc.c	/^static uint32_t A64_2MB[] = { $/;"	v	file:
+A8_256kB	runtime/mem_class_calc.c	/^static uint16_t  A8_256kB[] = { 1152, 1288, 1440,       1608, 1792, 2000, 2224, 2472, 2744, 3032, 3344, 3680, 4040,       4416, 4816, 5232, 5664, 6112, 6568, 7032, 7504, 7976 };$/;"	v	file:
+A8_32kB	runtime/mem_class_calc.c	/^static uint16_t  A8_32kB[] = { 144,      168, 192, 224, 256, 296, 336, 376, 424, 472,      528, 584, 640, 704, 768, 832, 896, 960, 1024 };$/;"	v	file:
+A8_4kB	runtime/mem_class_calc.c	/^static uint8_t  A8_4kB[] = {             8,         16,     24,     32, 40, 48,     64,     80, 96, 112, 120, 128 };$/;"	v	file:
+ABORTED_VERSION	txn/txn.c	13;"	d	file:
+ASSERT	include/lwt.h	17;"	d
+ASSERT	include/lwt.h	19;"	d
+ASSERT_EQUAL	test/map_test2.c	25;"	d	file:
+ASSERT_EQUAL	test/txn_test.c	10;"	d	file:
+ASSIST_UNLINK	map/skiplist.c	/^    ASSIST_UNLINK,$/;"	e	enum:unlink	file:
+ActiveSlab	runtime/mem2.c	/^struct { slab_t *slab; char *slab_base; } ActiveSlab[SLAB_CLASS_MAX + 1] = {};$/;"	v	typeref:struct:__anon4
+BlockSize	runtime/mem2.c	/^static const uint32_t BlockSize[] = { $/;"	v	file:
+CACHE_LINE_SCALE	include/common.h	15;"	d
+CACHE_LINE_SCALE	runtime/mem_class_calc.c	9;"	d	file:
+CACHE_LINE_SIZE	include/common.h	14;"	d
+CAS_EXPECT_DOES_NOT_EXIST	include/map.h	35;"	d
+CAS_EXPECT_EXISTS	include/map.h	36;"	d
+CAS_EXPECT_WHATEVER	include/map.h	37;"	d
+CFLAGS	makefile	/^CFLAGS  := $(CFLAGS3) #-DNBD_SINGLE_THREADED #-DUSE_SYSTEM_MALLOC #-DTEST_STRING_KEYS$/;"	m
+CFLAGS0	makefile	/^CFLAGS0 := -Wall -Werror -std=gnu99 -lpthread #-m32 -DNBD32$/;"	m
+CFLAGS1	makefile	/^CFLAGS1 := $(CFLAGS0) -g #-DNDEBUG #-fwhole-program -combine$/;"	m
+CFLAGS2	makefile	/^CFLAGS2 := $(CFLAGS1) #-DENABLE_TRACE$/;"	m
+CFLAGS3	makefile	/^CFLAGS3 := $(CFLAGS2) #-DLIST_USE_HAZARD_POINTER$/;"	m
+CHUNK_SCALE	runtime/mem2.c	17;"	d	file:
+COMMON_H	include/common.h	6;"	d
+COPIED_VALUE	map/hashtable.c	/^static const map_val_t COPIED_VALUE          = TAG_VALUE(DOES_NOT_EXIST, TAG1);$/;"	v	file:
+COUNT_TRAILING_ZEROS	include/common.h	40;"	d
+CU_ALLOC	test/CuTest.h	12;"	d
+CU_TEST_H	test/CuTest.h	2;"	d
+ClassStats	runtime/mem2.c	/^} ClassStats[METASLAB_CLASS_MAX+1];$/;"	v	typeref:struct:__anon5
+CuAssert	test/CuTest.h	71;"	d
+CuAssertDblEquals	test/CuTest.h	78;"	d
+CuAssertDblEquals_LineMsg	test/CuTest.c	/^void CuAssertDblEquals_LineMsg(CuTest* tc, const char* file, int line, const char* message, $/;"	f
+CuAssertDblEquals_Msg	test/CuTest.h	79;"	d
+CuAssertIntEquals	test/CuTest.h	76;"	d
+CuAssertIntEquals_LineMsg	test/CuTest.c	/^void CuAssertIntEquals_LineMsg(CuTest* tc, const char* file, int line, const char* message, $/;"	f
+CuAssertIntEquals_Msg	test/CuTest.h	77;"	d
+CuAssertPtrEquals	test/CuTest.h	80;"	d
+CuAssertPtrEquals_LineMsg	test/CuTest.c	/^void CuAssertPtrEquals_LineMsg(CuTest* tc, const char* file, int line, const char* message, $/;"	f
+CuAssertPtrEquals_Msg	test/CuTest.h	81;"	d
+CuAssertPtrNotNull	test/CuTest.h	83;"	d
+CuAssertPtrNotNullMsg	test/CuTest.h	84;"	d
+CuAssertStrEquals	test/CuTest.h	74;"	d
+CuAssertStrEquals_LineMsg	test/CuTest.c	/^void CuAssertStrEquals_LineMsg(CuTest* tc, const char* file, int line, const char* message, $/;"	f
+CuAssertStrEquals_Msg	test/CuTest.h	75;"	d
+CuAssertTrue	test/CuTest.h	72;"	d
+CuAssert_Line	test/CuTest.c	/^void CuAssert_Line(CuTest* tc, const char* file, int line, const char* message, int condition)$/;"	f
+CuFail	test/CuTest.h	70;"	d
+CuFailInternal	test/CuTest.c	/^static void CuFailInternal(CuTest* tc, const char* file, int line, CuString* string)$/;"	f	file:
+CuFail_Line	test/CuTest.c	/^void CuFail_Line(CuTest* tc, const char* file, int line, const char* message2, const char* message)$/;"	f
+CuStrAlloc	test/CuTest.c	/^char* CuStrAlloc(int size)$/;"	f
+CuStrCopy	test/CuTest.c	/^char* CuStrCopy(const char* old)$/;"	f
+CuString	test/CuTest.h	/^} CuString;$/;"	t	typeref:struct:__anon1
+CuStringAppend	test/CuTest.c	/^void CuStringAppend(CuString* str, const char* text)$/;"	f
+CuStringAppendChar	test/CuTest.c	/^void CuStringAppendChar(CuString* str, char ch)$/;"	f
+CuStringAppendFormat	test/CuTest.c	/^void CuStringAppendFormat(CuString* str, const char* format, ...)$/;"	f
+CuStringInit	test/CuTest.c	/^void CuStringInit(CuString* str)$/;"	f
+CuStringInsert	test/CuTest.c	/^void CuStringInsert(CuString* str, const char* text, int pos)$/;"	f
+CuStringNew	test/CuTest.c	/^CuString* CuStringNew(void)$/;"	f
+CuStringResize	test/CuTest.c	/^void CuStringResize(CuString* str, int newSize)$/;"	f
+CuSuite	test/CuTest.h	/^} CuSuite;$/;"	t	typeref:struct:__anon2
+CuSuiteAdd	test/CuTest.c	/^void CuSuiteAdd(CuSuite* testSuite, CuTest *testCase)$/;"	f
+CuSuiteAddSuite	test/CuTest.c	/^void CuSuiteAddSuite(CuSuite* testSuite, CuSuite* testSuite2)$/;"	f
+CuSuiteDetails	test/CuTest.c	/^void CuSuiteDetails(CuSuite* testSuite, CuString* details)$/;"	f
+CuSuiteInit	test/CuTest.c	/^void CuSuiteInit(CuSuite* testSuite)$/;"	f
+CuSuiteNew	test/CuTest.c	/^CuSuite* CuSuiteNew(void)$/;"	f
+CuSuiteRun	test/CuTest.c	/^void CuSuiteRun(CuSuite* testSuite)$/;"	f
+CuSuiteSummary	test/CuTest.c	/^void CuSuiteSummary(CuSuite* testSuite, CuString* summary)$/;"	f
+CuTest	test/CuTest.h	/^struct CuTest$/;"	s
+CuTest	test/CuTest.h	/^typedef struct CuTest CuTest;$/;"	t	typeref:struct:CuTest
+CuTestInit	test/CuTest.c	/^void CuTestInit(CuTest* t, const char* name, TestFunction function)$/;"	f
+CuTestNew	test/CuTest.c	/^CuTest* CuTestNew(const char* name, TestFunction function)$/;"	f
+CuTestRun	test/CuTest.c	/^void CuTestRun(CuTest* tc)$/;"	f
+DATATYPE_H	include/datatype.h	2;"	d
+DATATYPE_NSTRING	datatype/nstring.c	/^const datatype_t DATATYPE_NSTRING = { (cmp_fun_t)ns_cmp, (hash_fun_t)ns_hash, (clone_fun_t)ns_dup };$/;"	v
+DECLARE_THREAD_LOCAL	include/tls.h	12;"	d
+DECLARE_THREAD_LOCAL	include/tls.h	21;"	d
+DOES_NOT_EXIST	include/common.h	58;"	d
+DONT_UNLINK	map/skiplist.c	/^    DONT_UNLINK$/;"	e	enum:unlink	file:
+ENTRIES_PER_BUCKET	map/hashtable.c	/^static const unsigned ENTRIES_PER_BUCKET     = CACHE_LINE_SIZE\/sizeof(entry_t);$/;"	v	file:
+ENTRIES_PER_COPY_CHUNK	map/hashtable.c	/^static const unsigned ENTRIES_PER_COPY_CHUNK = CACHE_LINE_SIZE\/sizeof(entry_t)*2;$/;"	v	file:
+ERROR_INVALID_ARGUMENT	include/common.h	60;"	d
+ERROR_INVALID_OPTION	include/common.h	59;"	d
+ERROR_TXN_NOT_RUNNING	include/common.h	62;"	d
+ERROR_UNSUPPORTED_FEATURE	include/common.h	61;"	d
+EXPECT_FALSE	include/common.h	18;"	d
+EXPECT_TRUE	include/common.h	17;"	d
+FALSE	include/common.h	45;"	d
+FORCE_UNLINK	map/skiplist.c	/^    FORCE_UNLINK,$/;"	e	enum:unlink	file:
+FreePages	runtime/mem2.c	/^block_t *FreePages = NULL;$/;"	v
+FreshPartialSlabQueue	runtime/mem2.c	/^} FreshPartialSlabQueue[SLAB_CLASS_MAX+1];$/;"	v	typeref:struct:__anon7
+GET_NODE	map/list.c	39;"	d	file:
+GET_NODE	map/skiplist.c	64;"	d	file:
+GET_PTR	map/hashtable.c	25;"	d	file:
+GET_PTR	map/hashtable.c	27;"	d	file:
+GET_THREAD_INDEX	runtime/rlocal.h	9;"	d
+HASHTABLE_H	include/hashtable.h	2;"	d
+HAS_MARK	map/list.c	38;"	d	file:
+HAS_MARK	map/skiplist.c	63;"	d	file:
+HAZARD_H	include/hazard.h	11;"	d
+HEADERS_SIZE	runtime/mem.c	29;"	d	file:
+HUGE_SLAB_CASES	runtime/mem2.c	51;"	d	file:
+HUGE_SLAB_CLASS_MAX	runtime/mem2.c	43;"	d	file:
+HUGE_STRING_LEN	test/CuTest.h	14;"	d
+INCS	makefile	/^INCS    := $(addprefix -I, include)$/;"	m
+INITIAL_WRITES_SIZE	txn/txn.c	14;"	d	file:
+INIT_THREAD_LOCAL	include/tls.h	13;"	d
+INIT_THREAD_LOCAL	include/tls.h	23;"	d
+INVALID_SLAB_CLASS	runtime/mem2.c	36;"	d	file:
+IS_TAGGED	include/common.h	55;"	d
+LARGE_SLAB_CASES	runtime/mem2.c	50;"	d	file:
+LARGE_SLAB_CLASS_MAX	runtime/mem2.c	42;"	d	file:
+LIST_H	include/list.h	2;"	d
+LOCALIZE_THREAD_LOCAL	include/tls.h	15;"	d
+LOCALIZE_THREAD_LOCAL	include/tls.h	36;"	d
+LWT_BUFFER_MASK	runtime/lwt.c	15;"	d	file:
+LWT_BUFFER_SCALE	runtime/lwt.c	13;"	d	file:
+LWT_BUFFER_SIZE	runtime/lwt.c	14;"	d	file:
+LWT_H	include/lwt.h	8;"	d
+MAP_H	include/map.h	2;"	d
+MAP_IMPL_HT	include/hashtable.h	/^static const map_impl_t MAP_IMPL_HT = { $/;"	v
+MAP_IMPL_LL	include/list.h	/^static const map_impl_t MAP_IMPL_LL = { $/;"	v
+MAP_IMPL_SL	include/skiplist.h	/^static const map_impl_t MAP_IMPL_SL = { $/;"	v
+MAP_SRCS	makefile	/^MAP_SRCS     := map\/map.c map\/list.c map\/skiplist.c map\/hashtable.c$/;"	m
+MARK_NODE	map/list.c	37;"	d	file:
+MARK_NODE	map/skiplist.c	62;"	d	file:
+MASK	include/common.h	42;"	d
+MAX_LEVELS	map/skiplist.c	30;"	d	file:
+MAX_LEVELS	map/unsafe_skiplist.c	16;"	d	file:
+MAX_NUM_THREADS	include/common.h	22;"	d
+MAX_NUM_THREADS	include/common.h	30;"	d
+MAX_POINTER_BITS	runtime/mem.c	20;"	d	file:
+MAX_POINTER_BITS	runtime/mem.c	25;"	d	file:
+MAX_SCALE	runtime/mem.c	18;"	d	file:
+MAX_SCALE	runtime/mem.c	23;"	d	file:
+MAX_TEST_CASES	test/CuTest.h	88;"	d
+MEM_H	include/mem.h	6;"	d
+METASLAB_CLASS_MAX	runtime/mem2.c	37;"	d	file:
+MIN_SCALE	map/hashtable.c	/^static const unsigned MIN_SCALE              = 4; \/\/ min 16 entries (4 buckets)$/;"	v	file:
+MIN_SCALE	runtime/mem.c	19;"	d	file:
+MIN_SCALE	runtime/mem.c	24;"	d	file:
+MOD_SCALE	runtime/rcu.c	27;"	d	file:
+MaxThreadId	runtime/runtime.c	/^static int MaxThreadId = 0;$/;"	v	file:
+MemBase	runtime/mem2.c	/^char    *MemBase   = NULL;$/;"	v
+MemEnd	runtime/mem2.c	/^char    *MemEnd    = NULL;$/;"	v
+NESTED_256K_SLAB_CASES	runtime/mem2.c	49;"	d	file:
+NESTED_256K_SLAB_CLASS_MAX	runtime/mem2.c	40;"	d	file:
+NESTED_32K_SLAB_CASES	runtime/mem2.c	48;"	d	file:
+NESTED_32K_SLAB_CLASS_MAX	runtime/mem2.c	39;"	d	file:
+NESTED_4K_SLAB_CASES	runtime/mem2.c	47;"	d	file:
+NESTED_4K_SLAB_CLASS_MAX	runtime/mem2.c	38;"	d	file:
+NESTED_SLAB_CASES	runtime/mem2.c	46;"	d	file:
+NESTED_SLAB_CLASS_MAX	runtime/mem2.c	41;"	d	file:
+NSTRING_H	include/nstring.h	2;"	d
+NUM_ITERATIONS	test/haz_test.c	19;"	d	file:
+NUM_ITERATIONS	test/map_test1.c	15;"	d	file:
+NUM_ITERATIONS	test/rcu_test.c	11;"	d	file:
+OBJS	makefile	/^OBJS    := $(TESTS)$/;"	m
+OP_SELECT_RANGE	test/perf_test.c	27;"	d	file:
+PAGE_SCALE	runtime/mem.c	21;"	d	file:
+PAGE_SCALE	runtime/mem.c	26;"	d	file:
+PAGE_SCALE	runtime/mem2.c	18;"	d	file:
+PAGE_SIZE	runtime/mem.c	28;"	d	file:
+PAGE_SIZE	runtime/mem2.c	19;"	d	file:
+PTR_TO_VAL	txn/txn.c	15;"	d	file:
+PageBreak	runtime/mem2.c	/^char    *PageBreak = NULL;$/;"	v
+PageMap	runtime/mem2.c	/^size_t  *PageMap   = NULL;$/;"	v
+PartialSlabQueue	runtime/mem2.c	/^} PartialSlabQueue[SLAB_CLASS_MAX+1];$/;"	v	typeref:struct:__anon6
+RCU_H	include/rcu.h	6;"	d
+RCU_POST_THRESHOLD	runtime/rcu.c	17;"	d	file:
+RCU_QUEUE_SCALE	runtime/rcu.c	18;"	d	file:
+RLOCAL_H	runtime/rlocal.h	2;"	d
+RUNTIME_H	include/runtime.h	6;"	d
+RUNTIME_SRCS	makefile	/^RUNTIME_SRCS := runtime\/runtime.c runtime\/rcu.c runtime\/lwt.c runtime\/mem.c runtime\/random.c \\$/;"	m
+SET_THREAD_LOCAL	include/tls.h	14;"	d
+SET_THREAD_LOCAL	include/tls.h	30;"	d
+SKIPLIST_H	include/skiplist.h	2;"	d
+SLAB_CLASS_MAX	runtime/mem2.c	44;"	d	file:
+SLAB_CLASS_SCALE	runtime/mem2.c	53;"	d	file:
+STATIC_HAZ_PER_THREAD	include/hazard.h	13;"	d
+STRING_INC	test/CuTest.h	16;"	d
+STRING_MAX	test/CuTest.h	15;"	d
+STRIP_MARK	map/list.c	40;"	d	file:
+STRIP_MARK	map/skiplist.c	65;"	d	file:
+STRIP_TAG	include/common.h	56;"	d
+SUITE_ADD_TEST	test/CuTest.h	90;"	d
+SYNC_ADD	include/common.h	26;"	d
+SYNC_ADD	include/common.h	35;"	d
+SYNC_CAS	include/common.h	25;"	d
+SYNC_CAS	include/common.h	33;"	d
+SYNC_FETCH_AND_OR	include/common.h	27;"	d
+SYNC_FETCH_AND_OR	include/common.h	36;"	d
+SYNC_SWAP	include/common.h	24;"	d
+SYNC_SWAP	include/common.h	32;"	d
+TAG1	include/common.h	48;"	d
+TAG1	include/common.h	51;"	d
+TAG2	include/common.h	49;"	d
+TAG2	include/common.h	52;"	d
+TAG_VALUE	include/common.h	54;"	d
+TESTS	makefile	/^TESTS   := output\/perf_test output\/map_test1 output\/map_test2 output\/rcu_test output\/txn_test #output\/haz_test$/;"	m
+TLS_H	include/tls.h	9;"	d
+TOMBSTONE	map/hashtable.c	/^static const map_val_t TOMBSTONE             = STRIP_TAG(-1, TAG1);$/;"	v	file:
+TOTAL_SCALE	runtime/mem2.c	27;"	d	file:
+TOTAL_SCALE	runtime/mem2.c	29;"	d	file:
+TOTAL_SCALE	runtime/mem2.c	32;"	d	file:
+TOTAL_SIZE	runtime/mem2.c	34;"	d	file:
+TRACE	include/lwt.h	11;"	d
+TRACE	include/lwt.h	13;"	d
+TRUE	include/common.h	44;"	d
+TXN_ABORTED	include/txn.h	/^typedef enum { TXN_RUNNING, TXN_VALIDATING, TXN_VALIDATED, TXN_ABORTED } txn_state_e;$/;"	e	enum:__anon8
+TXN_H	include/txn.h	6;"	d
+TXN_RUNNING	include/txn.h	/^typedef enum { TXN_RUNNING, TXN_VALIDATING, TXN_VALIDATED, TXN_ABORTED } txn_state_e;$/;"	e	enum:__anon8
+TXN_VALIDATED	include/txn.h	/^typedef enum { TXN_RUNNING, TXN_VALIDATING, TXN_VALIDATED, TXN_ABORTED } txn_state_e;$/;"	e	enum:__anon8
+TXN_VALIDATING	include/txn.h	/^typedef enum { TXN_RUNNING, TXN_VALIDATING, TXN_VALIDATED, TXN_ABORTED } txn_state_e;$/;"	e	enum:__anon8
+TestFunction	test/CuTest.h	/^typedef void (*TestFunction)(CuTest *);$/;"	t
+TraceBuffer	runtime/lwt.c	/^lwt_buffer_t *TraceBuffer[MAX_NUM_THREADS] = {};$/;"	v
+TraceLevel	runtime/lwt.c	/^char TraceLevel[256] = {};$/;"	v
+TraceSpec	runtime/lwt.c	/^static const char *TraceSpec = "";$/;"	v	file:
+UNDETERMINED_VERSION	txn/txn.c	12;"	d	file:
+VAL_TO_PTR	txn/txn.c	16;"	d	file:
+VOLATILE_DEREF	include/common.h	64;"	d
+_BSD_SOURCE	runtime/mem.c	8;"	d	file:
+_BSD_SOURCE	runtime/mem2.c	8;"	d	file:
+activate_new_slab	runtime/mem2.c	/^static void activate_new_slab (class_t slab_class) {$/;"	f	file:
+active_	txn/txn.c	/^static skiplist_t *active_ = NULL;$/;"	v	file:
+active_page	runtime/mem.c	/^    header_t *active_page;$/;"	m	struct:size_class	file:
+add_remove_worker	test/map_test2.c	/^void *add_remove_worker (void *arg) {$/;"	f
+alloc	include/map.h	/^    map_alloc_t  alloc;$/;"	m	struct:map_impl
+alloc_update_rec	txn/txn.c	/^static update_t *alloc_update_rec (version_t ver, map_val_t val) {$/;"	f	file:
+basic_iteration_test	test/map_test2.c	/^void basic_iteration_test (CuTest* tc) {$/;"	f
+basic_test	test/map_test2.c	/^void basic_test (CuTest* tc) {$/;"	f
+big_iteration_test	test/map_test2.c	/^void big_iteration_test (CuTest* tc) {$/;"	f
+block	runtime/mem.c	/^typedef struct block {$/;"	s	file:
+block	runtime/mem2.c	/^typedef struct block {$/;"	s	file:
+block_t	runtime/mem.c	/^} block_t;$/;"	t	typeref:struct:block	file:
+block_t	runtime/mem2.c	/^} block_t;$/;"	t	typeref:struct:block	file:
+blocks_from	runtime/mem.c	/^    block_t *blocks_from[MAX_NUM_THREADS];$/;"	m	struct:tl	file:
+blocks_to	runtime/mem.c	/^    block_t *blocks_to[MAX_NUM_THREADS];$/;"	m	struct:tl	file:
+buffer	test/CuTest.h	/^	char* buffer;$/;"	m	struct:__anon1
+bytes_allocated	runtime/mem2.c	/^    size_t bytes_allocated;$/;"	m	struct:__anon5	file:
+bytes_requested	runtime/mem2.c	/^    size_t bytes_requested;$/;"	m	struct:__anon5	file:
+calc_frag	runtime/mem_class_calc.c	/^double calc_frag(int slab_size, int block_size, int delta)$/;"	f
+cas	include/map.h	/^    map_cas_t    cas;$/;"	m	struct:map_impl
+class	runtime/mem2.c	/^    unsigned class:6;$/;"	m	struct:slab	file:
+class_t	runtime/mem2.c	/^typedef uint8_t class_t;$/;"	t	file:
+clone	include/datatype.h	/^    clone_fun_t clone;$/;"	m	struct:datatype
+clone_fun_t	include/datatype.h	/^typedef void *   (*clone_fun_t) (void *);$/;"	t
+cmp	include/datatype.h	/^    cmp_fun_t   cmp;$/;"	m	struct:datatype
+cmp_fun_t	include/datatype.h	/^typedef int      (*cmp_fun_t)   (void *, void *);$/;"	t
+concurrent_add_remove_test	test/map_test2.c	/^void concurrent_add_remove_test (CuTest* tc) {$/;"	f
+copy_scan	map/hashtable.c	/^    size_t copy_scan;$/;"	m	struct:hti	file:
+count	include/map.h	/^    map_count_t  count;$/;"	m	struct:map_impl
+count	map/hashtable.c	/^    size_t count; \/\/ TODO: make these counters distributed$/;"	m	struct:hti	file:
+count	test/CuTest.h	/^	int count;$/;"	m	struct:__anon2
+data	include/nstring.h	/^    char data[];$/;"	m	struct:nstring
+data	map/map.c	/^    void *data;$/;"	m	struct:map	file:
+data	runtime/mem2.c	/^    char * data;$/;"	m	struct:metaslab	file:
+datatype	include/datatype.h	/^typedef struct datatype {$/;"	s
+datatype_t	include/datatype.h	/^} datatype_t;$/;"	t	typeref:struct:datatype
+density	map/hashtable.c	/^    double density;$/;"	m	struct:ht	file:
+dump_buffer	runtime/lwt.c	/^static void dump_buffer (FILE *file, int thread_index, uint64_t offset) {$/;"	f	file:
+dump_record	runtime/lwt.c	/^static void dump_record (FILE *file, int thread_id, lwt_record_t *r, uint64_t offset) {$/;"	f	file:
+duration_	test/perf_test.c	/^static int duration_;$/;"	v	file:
+dynamic	runtime/hazard.c	/^    haz_t **dynamic;$/;"	m	struct:haz_local	file:
+dynamic_count	runtime/hazard.c	/^    int dynamic_count;$/;"	m	struct:haz_local	file:
+dynamic_size	runtime/hazard.c	/^    int dynamic_size;$/;"	m	struct:haz_local	file:
+entry	map/hashtable.c	/^typedef struct entry {$/;"	s	file:
+entry_t	map/hashtable.c	/^} entry_t;$/;"	t	typeref:struct:entry	file:
+failCount	test/CuTest.h	/^	int failCount;$/;"	m	struct:__anon2
+failed	test/CuTest.h	/^	int failed;$/;"	m	struct:CuTest
+fifo	runtime/rcu.c	/^typedef struct fifo {$/;"	s	file:
+fifo_alloc	runtime/rcu.c	/^static fifo_t *fifo_alloc(int scale) {$/;"	f	file:
+fifo_t	runtime/rcu.c	/^} fifo_t;$/;"	t	typeref:struct:fifo	file:
+find_partial_slab	runtime/mem2.c	/^static int find_partial_slab(metaslab_t *metaslab, class_t target_class, int target_index) {$/;"	f	file:
+find_pred	map/list.c	/^static int find_pred (node_t **pred_ptr, node_t **item_ptr, list_t *ll, map_key_t key, int help_remove) {$/;"	f	file:
+find_preds	map/skiplist.c	/^static node_t *find_preds (node_t **preds, node_t **succs, int n, skiplist_t *sl, map_key_t key, enum unlink unlink) {$/;"	f	file:
+find_preds	map/unsafe_skiplist.c	/^static node_t *find_preds (node_t **preds, node_t **succs, int n, skiplist_t *sl, map_key_t key, int unlink) {$/;"	f	file:
+format	runtime/lwt.c	/^    uint64_t format;$/;"	m	struct:lwt_record	file:
+free_	include/map.h	/^    map_free_t   free_;$/;"	m	struct:map_impl
+free_	runtime/hazard.c	/^    free_t free_; $/;"	m	struct:pending	file:
+free_list	runtime/mem.c	/^    block_t *free_list; \/\/ list of free blocks$/;"	m	struct:header	file:
+free_list	runtime/mem.c	/^    block_t *free_list[MAX_SCALE+1];$/;"	m	struct:tl	file:
+free_list	runtime/mem2.c	/^    unsigned free_list:15;$/;"	m	struct:slab	file:
+free_page	runtime/mem2.c	/^static void free_page (void *p) {$/;"	f	file:
+free_t	include/hazard.h	/^typedef void (*free_t) (void *);$/;"	t
+function	test/CuTest.h	/^	TestFunction function;$/;"	m	struct:CuTest
+get	include/map.h	/^    map_get_t    get;$/;"	m	struct:map_impl
+get_block	runtime/mem2.c	/^static void *get_block(class_t slab_class) {$/;"	f	file:
+get_header	runtime/mem.c	/^static inline header_t *get_header (void *r) {$/;"	f	file:
+get_meta_class	runtime/mem2.c	/^static class_t get_meta_class (class_t class) {$/;"	f	file:
+get_new_region	runtime/mem.c	/^static void *get_new_region (int block_scale) {$/;"	f	file:
+get_next_ndx	map/hashtable.c	/^static inline int get_next_ndx(int old_ndx, uint32_t key_hash, int ht_scale) {$/;"	f	file:
+get_page	runtime/mem2.c	/^static void *get_page (void) {$/;"	f	file:
+get_range_	test/perf_test.c	/^static int get_range_, put_range_;$/;"	v	file:
+get_slab_class	runtime/mem2.c	/^static class_t get_slab_class (size_t size) {$/;"	f	file:
+halt_	runtime/lwt.c	/^volatile int halt_ = 0;$/;"	v
+hash	include/datatype.h	/^    hash_fun_t  hash;$/;"	m	struct:datatype
+hash_fun_t	include/datatype.h	/^typedef uint32_t (*hash_fun_t)  (void *);$/;"	t
+hashtable_t	include/hashtable.h	/^typedef struct ht hashtable_t;$/;"	t	typeref:struct:ht
+haz_defer_free	runtime/hazard.c	/^void haz_defer_free (void *d, free_t f) {$/;"	f
+haz_get_static	runtime/hazard.c	/^haz_t *haz_get_static (int i) {$/;"	f
+haz_local	runtime/hazard.c	/^typedef struct haz_local {$/;"	s	file:
+haz_local_	runtime/hazard.c	/^static haz_local_t haz_local_[MAX_NUM_THREADS] = {};$/;"	v	file:
+haz_local_t	runtime/hazard.c	/^} __attribute__ ((aligned(CACHE_LINE_SIZE))) haz_local_t;$/;"	t	typeref:struct:haz_local	file:
+haz_register_dynamic	runtime/hazard.c	/^void haz_register_dynamic (haz_t *haz) {$/;"	f
+haz_set	include/hazard.h	/^static inline void haz_set (volatile haz_t *haz, void *x) { *haz = x; __asm__ __volatile__("mfence"); }$/;"	f
+haz_t	include/hazard.h	/^typedef void *haz_t;$/;"	t
+haz_test_SRCS	makefile	/^haz_test_SRCS  := $(RUNTIME_SRCS) test\/haz_test.c$/;"	m
+haz_unregister_dynamic	runtime/hazard.c	/^void haz_unregister_dynamic (void **haz) {$/;"	f
+head	map/list.c	/^    node_t *head;$/;"	m	struct:ll	file:
+head	map/skiplist.c	/^    node_t *head;$/;"	m	struct:sl	file:
+head	map/unsafe_skiplist.c	/^    node_t *head;$/;"	m	struct:sl	file:
+head	runtime/lwt.c	/^    uint32_t head;$/;"	m	struct:lwt_buffer	file:
+head	runtime/rcu.c	/^    uint32_t head;$/;"	m	struct:fifo	file:
+head	test/haz_test.c	/^    node_t *head;$/;"	m	struct:lifo	file:
+head	test/rcu_test.c	/^    node_t *head;$/;"	m	struct:lifo	file:
+header	runtime/mem.c	/^typedef struct header {$/;"	s	file:
+header_t	runtime/mem.c	/^} header_t;$/;"	t	typeref:struct:header	file:
+headers_	runtime/mem.c	/^static header_t *headers_ = NULL;$/;"	v	file:
+high_water	map/skiplist.c	/^    int high_water; \/\/ max historic number of levels$/;"	m	struct:sl	file:
+high_water	map/unsafe_skiplist.c	/^    int high_water; \/\/ max level of any item in the list$/;"	m	struct:sl	file:
+ht	map/hashtable.c	/^    hashtable_t *ht; \/\/ parent ht;$/;"	m	struct:hti	file:
+ht	map/hashtable.c	/^struct ht {$/;"	s	file:
+ht_alloc	map/hashtable.c	/^hashtable_t *ht_alloc (const datatype_t *key_type) {$/;"	f
+ht_cas	map/hashtable.c	/^map_val_t ht_cas (hashtable_t *ht, map_key_t key, map_val_t expected_val, map_val_t new_val) {$/;"	f
+ht_count	map/hashtable.c	/^size_t ht_count (hashtable_t *ht) {$/;"	f
+ht_free	map/hashtable.c	/^void ht_free (hashtable_t *ht) {$/;"	f
+ht_get	map/hashtable.c	/^map_val_t ht_get (hashtable_t *ht, map_key_t key) {$/;"	f
+ht_iter	map/hashtable.c	/^struct ht_iter {$/;"	s	file:
+ht_iter_begin	map/hashtable.c	/^ht_iter_t *ht_iter_begin (hashtable_t *ht, map_key_t key) {$/;"	f
+ht_iter_free	map/hashtable.c	/^void ht_iter_free (ht_iter_t *iter) {$/;"	f
+ht_iter_next	map/hashtable.c	/^map_val_t ht_iter_next (ht_iter_t *iter, map_key_t *key_ptr) {$/;"	f
+ht_iter_t	include/hashtable.h	/^typedef struct ht_iter ht_iter_t;$/;"	t	typeref:struct:ht_iter
+ht_print	map/hashtable.c	/^void ht_print (hashtable_t *ht, int verbose) {$/;"	f
+ht_remove	map/hashtable.c	/^map_val_t ht_remove (hashtable_t *ht, map_key_t key) {$/;"	f
+hti	map/hashtable.c	/^    hti_t *  hti;$/;"	m	struct:ht_iter	file:
+hti	map/hashtable.c	/^    hti_t *hti;$/;"	m	struct:ht	file:
+hti	map/hashtable.c	/^typedef struct hti {$/;"	s	file:
+hti_alloc	map/hashtable.c	/^static hti_t *hti_alloc (hashtable_t *parent, int scale) {$/;"	f	file:
+hti_cas	map/hashtable.c	/^static map_val_t hti_cas (hti_t *hti, map_key_t key, uint32_t key_hash, map_val_t expected, map_val_t new) {$/;"	f	file:
+hti_copies	map/hashtable.c	/^    uint32_t hti_copies;$/;"	m	struct:ht	file:
+hti_copy_entry	map/hashtable.c	/^static int hti_copy_entry (hti_t *ht1, volatile entry_t *ht1_ent, uint32_t key_hash, hti_t *ht2) {$/;"	f	file:
+hti_defer_free	map/hashtable.c	/^static void hti_defer_free (hti_t *hti) {$/;"	f	file:
+hti_get	map/hashtable.c	/^static map_val_t hti_get (hti_t *hti, map_key_t key, uint32_t key_hash) {$/;"	f	file:
+hti_help_copy	map/hashtable.c	/^static int hti_help_copy (hti_t *hti) {$/;"	f	file:
+hti_lookup	map/hashtable.c	/^static volatile entry_t *hti_lookup (hti_t *hti, map_key_t key, uint32_t key_hash, int *is_empty) {$/;"	f	file:
+hti_release	map/hashtable.c	/^static void hti_release (hti_t *hti) {$/;"	f	file:
+hti_start_copy	map/hashtable.c	/^static void hti_start_copy (hti_t *hti) {$/;"	f	file:
+hti_t	map/hashtable.c	/^} hti_t;$/;"	t	typeref:struct:hti	file:
+id	test/map_test2.c	/^    int id;$/;"	m	struct:worker_data	file:
+idx	map/hashtable.c	/^    int64_t  idx;$/;"	m	struct:ht_iter	file:
+impl	map/map.c	/^    const map_impl_t *impl;$/;"	m	struct:map	file:
+impl	map/map.c	/^    const map_impl_t *impl;$/;"	m	struct:map_iter	file:
+init_slab	runtime/mem2.c	/^static void init_slab (void *b, class_t slab_class) {$/;"	f	file:
+ischosen	runtime/mem_class_calc.c	78;"	d	file:
+iter_begin	include/map.h	/^    map_iter_begin_t iter_begin;$/;"	m	struct:map_impl
+iter_free	include/map.h	/^    map_iter_free_t  iter_free;$/;"	m	struct:map_impl
+iter_next	include/map.h	/^    map_iter_next_t  iter_next;$/;"	m	struct:map_impl
+iterator_size	test/map_test2.c	/^static size_t iterator_size (map_t *map) {$/;"	f	file:
+jumpBuf	test/CuTest.h	/^	jmp_buf *jumpBuf;$/;"	m	struct:CuTest
+key	map/hashtable.c	/^    map_key_t key;$/;"	m	struct:entry	file:
+key	map/list.c	/^    map_key_t  key;$/;"	m	struct:node	file:
+key	map/skiplist.c	/^    map_key_t key;$/;"	m	struct:node	file:
+key	map/unsafe_skiplist.c	/^    map_key_t key;$/;"	m	struct:node	file:
+key	txn/txn.c	/^    map_key_t key;$/;"	m	struct:write_rec	file:
+key_count	map/hashtable.c	/^    size_t key_count;$/;"	m	struct:hti	file:
+key_type	map/hashtable.c	/^    const datatype_t *key_type;$/;"	m	struct:ht	file:
+key_type	map/list.c	/^    const datatype_t *key_type;$/;"	m	struct:ll	file:
+key_type	map/skiplist.c	/^    const datatype_t *key_type;$/;"	m	struct:sl	file:
+key_type	map/unsafe_skiplist.c	/^    const datatype_t *key_type;$/;"	m	struct:sl	file:
+len	include/nstring.h	/^    uint32_t len;$/;"	m	struct:nstring
+length	test/CuTest.h	/^	int length;$/;"	m	struct:__anon1
+lifo	test/haz_test.c	/^typedef struct lifo {$/;"	s	file:
+lifo	test/rcu_test.c	/^typedef struct lifo {$/;"	s	file:
+lifo_aba_pop	test/rcu_test.c	/^node_t *lifo_aba_pop (lifo_t *stk) {$/;"	f
+lifo_aba_push	test/rcu_test.c	/^static void lifo_aba_push (lifo_t *stk, node_t *x) {$/;"	f	file:
+lifo_alloc	test/rcu_test.c	/^static lifo_t *lifo_alloc (void) {$/;"	f	file:
+lifo_t	test/haz_test.c	/^} lifo_t;$/;"	t	typeref:struct:lifo	file:
+lifo_t	test/rcu_test.c	/^} lifo_t;$/;"	t	typeref:struct:lifo	file:
+list	test/CuTest.h	/^	CuTest* list[MAX_TEST_CASES];$/;"	m	struct:__anon2
+list_t	include/list.h	/^typedef struct ll list_t;$/;"	t	typeref:struct:ll
+ll	map/list.c	/^struct ll {$/;"	s	file:
+ll_alloc	map/list.c	/^list_t *ll_alloc (const datatype_t *key_type) {$/;"	f
+ll_cas	map/list.c	/^map_val_t ll_cas (list_t *ll, map_key_t key, map_val_t expectation, map_val_t new_val) {$/;"	f
+ll_count	map/list.c	/^size_t ll_count (list_t *ll) {$/;"	f
+ll_free	map/list.c	/^void ll_free (list_t *ll) {$/;"	f
+ll_iter	map/list.c	/^struct ll_iter {$/;"	s	file:
+ll_iter_begin	map/list.c	/^ll_iter_t *ll_iter_begin (list_t *ll, map_key_t key) {$/;"	f
+ll_iter_free	map/list.c	/^void ll_iter_free (ll_iter_t *iter) {$/;"	f
+ll_iter_next	map/list.c	/^map_val_t ll_iter_next (ll_iter_t *iter, map_key_t *key_ptr) {$/;"	f
+ll_iter_t	include/list.h	/^typedef struct ll_iter ll_iter_t;$/;"	t	typeref:struct:ll_iter
+ll_lookup	map/list.c	/^map_val_t ll_lookup (list_t *ll, map_key_t key) {$/;"	f
+ll_print	map/list.c	/^void ll_print (list_t *ll, int verbose) {$/;"	f
+ll_remove	map/list.c	/^map_val_t ll_remove (list_t *ll, map_key_t key) {$/;"	f
+load_	test/perf_test.c	/^static volatile int start_, stop_, load_;$/;"	v	file:
+load_time_	test/perf_test.c	/^static double load_time_;$/;"	v	file:
+lwt_buffer	runtime/lwt.c	/^typedef struct lwt_buffer {$/;"	s	file:
+lwt_buffer_t	runtime/lwt.c	/^} lwt_buffer_t;$/;"	t	typeref:struct:lwt_buffer	file:
+lwt_dump	runtime/lwt.c	/^void lwt_dump (const char *file_name) {$/;"	f
+lwt_halt	runtime/lwt.c	/^void lwt_halt (void) {$/;"	f
+lwt_record	runtime/lwt.c	/^typedef struct lwt_record {$/;"	s	file:
+lwt_record_t	runtime/lwt.c	/^} lwt_record_t;$/;"	t	typeref:struct:lwt_record	file:
+lwt_set_trace_level	runtime/lwt.c	/^void lwt_set_trace_level (const char *flags) {$/;"	f
+lwt_thread_init	runtime/lwt.c	/^void lwt_thread_init (void) {$/;"	f
+lwt_trace	include/lwt.h	/^static inline void lwt_trace (const char *flag, const char *format, size_t value1, size_t value2) {$/;"	f
+lwt_trace_i	runtime/lwt.c	/^void lwt_trace_i (uint64_t format, size_t value1, size_t value2) {$/;"	f
+main	runtime/mem_class_calc.c	/^int main (void) {$/;"	f
+main	test/haz_test.c	/^int main (int argc, char **argv) {$/;"	f
+main	test/map_test1.c	/^int main (int argc, char **argv) {$/;"	f
+main	test/map_test2.c	/^int main (void) {$/;"	f
+main	test/perf_test.c	/^int main (int argc, char **argv) {$/;"	f
+main	test/rcu_test.c	/^int main (int argc, char **argv) {$/;"	f
+main	test/txn_test.c	/^int main (void) {$/;"	f
+map	map/map.c	/^struct map {$/;"	s	file:
+map	test/map_test2.c	/^    map_t *map;$/;"	m	struct:worker_data	file:
+map	txn/txn.c	/^    map_t *map;$/;"	m	struct:txn	file:
+map_	test/map_test1.c	/^static map_t *map_;$/;"	v	file:
+map_	test/perf_test.c	/^static map_t *map_;$/;"	v	file:
+map_add	map/map.c	/^map_val_t map_add (map_t *map, map_key_t key, map_val_t new_val) {$/;"	f
+map_alloc	map/map.c	/^map_t *map_alloc (const map_impl_t *map_impl, const datatype_t *key_type) {$/;"	f
+map_alloc_t	include/map.h	/^typedef void *       (*map_alloc_t)  (const datatype_t *);$/;"	t
+map_cas	map/map.c	/^map_val_t map_cas (map_t *map, map_key_t key, map_val_t expected_val, map_val_t new_val) {$/;"	f
+map_cas_t	include/map.h	/^typedef map_val_t    (*map_cas_t)    (void *, map_key_t , map_val_t, map_val_t);$/;"	t
+map_count	map/map.c	/^map_val_t map_count (map_t *map) {$/;"	f
+map_count_t	include/map.h	/^typedef size_t       (*map_count_t)  (void *);$/;"	t
+map_free	map/map.c	/^void map_free (map_t *map) {$/;"	f
+map_free_t	include/map.h	/^typedef void         (*map_free_t)   (void *);$/;"	t
+map_get	map/map.c	/^map_val_t map_get (map_t *map, map_key_t key) {$/;"	f
+map_get_t	include/map.h	/^typedef map_val_t    (*map_get_t)    (void *, map_key_t );$/;"	t
+map_impl	include/map.h	/^struct map_impl {$/;"	s
+map_impl_t	include/map.h	/^typedef struct map_impl map_impl_t;$/;"	t	typeref:struct:map_impl
+map_iter	map/map.c	/^struct map_iter {$/;"	s	file:
+map_iter_begin	map/map.c	/^map_iter_t * map_iter_begin (map_t *map, map_key_t key) {$/;"	f
+map_iter_begin_t	include/map.h	/^typedef map_iter_t * (*map_iter_begin_t) (void *, map_key_t);$/;"	t
+map_iter_free	map/map.c	/^void map_iter_free (map_iter_t *iter) {$/;"	f
+map_iter_free_t	include/map.h	/^typedef void         (*map_iter_free_t)  (map_iter_t *);$/;"	t
+map_iter_next	map/map.c	/^map_val_t map_iter_next (map_iter_t *iter, map_key_t *key_ptr) {$/;"	f
+map_iter_next_t	include/map.h	/^typedef map_val_t    (*map_iter_next_t)  (map_iter_t *, map_key_t *);$/;"	t
+map_iter_t	include/map.h	/^typedef struct map_iter map_iter_t;$/;"	t	typeref:struct:map_iter
+map_key_t	include/map.h	/^typedef uint32_t map_key_t;$/;"	t
+map_key_t	include/map.h	/^typedef uint64_t map_key_t;$/;"	t
+map_print	map/map.c	/^void map_print (map_t *map, int verbose) {$/;"	f
+map_print_t	include/map.h	/^typedef void         (*map_print_t)  (void *, int);$/;"	t
+map_remove	map/map.c	/^map_val_t map_remove (map_t *map, map_key_t key) {$/;"	f
+map_remove_t	include/map.h	/^typedef map_val_t    (*map_remove_t) (void *, map_key_t );$/;"	t
+map_replace	map/map.c	/^map_val_t map_replace(map_t *map, map_key_t key, map_val_t new_val) {$/;"	f
+map_set	map/map.c	/^map_val_t map_set (map_t *map, map_key_t key, map_val_t new_val) {$/;"	f
+map_t	include/map.h	/^typedef struct map map_t;$/;"	t	typeref:struct:map
+map_test1_SRCS	makefile	/^map_test1_SRCS := $(RUNTIME_SRCS) $(MAP_SRCS) test\/map_test1.c$/;"	m
+map_test2_SRCS	makefile	/^map_test2_SRCS := $(RUNTIME_SRCS) $(MAP_SRCS) test\/map_test2.c test\/CuTest.c$/;"	m
+map_type_	test/map_test2.c	/^static const map_impl_t *map_type_;$/;"	v	file:
+map_val_t	include/map.h	/^typedef uint32_t map_val_t;$/;"	t
+map_val_t	include/map.h	/^typedef uint64_t map_val_t;$/;"	t
+markable_t	include/common.h	/^typedef size_t markable_t;$/;"	t
+mem_init	runtime/mem.c	/^void mem_init (void) {$/;"	f
+mem_init	runtime/mem2.c	/^void mem_init (void) {$/;"	f
+message	test/CuTest.h	/^	const char* message;$/;"	m	struct:CuTest
+metaslab	runtime/mem2.c	/^typedef struct metaslab {$/;"	s	file:
+metaslab_t	runtime/mem2.c	/^} metaslab_t;$/;"	t	typeref:struct:metaslab	file:
+murmur32	include/murmur.h	/^static inline uint32_t murmur32 (const char *key, int len)$/;"	f
+murmur32_4b	include/murmur.h	/^static inline uint32_t murmur32_4b (uint32_t key)$/;"	f
+murmur32_8b	include/murmur.h	/^static inline uint32_t murmur32_8b (uint64_t key)$/;"	f
+name	test/CuTest.h	/^	const char* name;$/;"	m	struct:CuTest
+nbd_free	runtime/mem.c	/^void nbd_free (void *x) {$/;"	f
+nbd_free	runtime/mem2.c	/^void nbd_free (void *x) {$/;"	f
+nbd_free_node	map/list.c	/^static void nbd_free_node (node_t *x) {$/;"	f	file:
+nbd_init	runtime/runtime.c	/^__attribute__ ((constructor)) void nbd_init (void) {$/;"	f
+nbd_malloc	runtime/mem.c	/^void *nbd_malloc (size_t n) {$/;"	f
+nbd_malloc	runtime/mem2.c	/^void *nbd_malloc (size_t n) {$/;"	f
+nbd_rand	runtime/random.c	/^uint64_t nbd_rand (void) {$/;"	f
+nbd_thread_init	runtime/runtime.c	/^void nbd_thread_init (void) {$/;"	f
+ndb_free	runtime/mem2.c	/^void ndb_free (void *x) {$/;"	f
+new_large_slab	runtime/mem2.c	/^static slab_t *new_large_slab (class_t slab_class) {$/;"	f	file:
+newer	runtime/mem2.c	/^        struct metaslab *newer; $/;"	m	struct:metaslab::__anon3	typeref:struct:metaslab::__anon3::metaslab	file:
+newest	runtime/mem2.c	/^    slab_t *newest; $/;"	m	struct:__anon6	file:
+newest_partial	runtime/mem.c	/^    header_t *newest_partial;$/;"	m	struct:size_class	file:
+next	map/hashtable.c	/^    struct hti *next;$/;"	m	struct:hti	typeref:struct:hti::hti	file:
+next	map/list.c	/^    markable_t next; \/\/ next node$/;"	m	struct:node	file:
+next	map/skiplist.c	/^    markable_t next[1];$/;"	m	struct:node	file:
+next	map/skiplist.c	/^    node_t *next;$/;"	m	struct:sl_iter	file:
+next	map/unsafe_skiplist.c	/^    node_t *next;$/;"	m	struct:sl_iter	file:
+next	map/unsafe_skiplist.c	/^    struct node *next[1];$/;"	m	struct:node	typeref:struct:node::node	file:
+next	runtime/mem.c	/^    struct block *next;$/;"	m	struct:block	typeref:struct:block::block	file:
+next	runtime/mem.c	/^    struct header *next;$/;"	m	struct:header	typeref:struct:header::header	file:
+next	runtime/mem2.c	/^    struct block *next;$/;"	m	struct:block	typeref:struct:block::block	file:
+next	test/haz_test.c	/^    struct node *next;$/;"	m	struct:node	typeref:struct:node::node	file:
+next	test/rcu_test.c	/^    struct node *next;$/;"	m	struct:node	typeref:struct:node::node	file:
+next	txn/txn.c	/^    map_val_t next; \/\/ an earlier update$/;"	m	struct:update_rec	file:
+node	map/list.c	/^typedef struct node {$/;"	s	file:
+node	map/skiplist.c	/^typedef struct node {$/;"	s	file:
+node	map/unsafe_skiplist.c	/^typedef struct node {$/;"	s	file:
+node	test/haz_test.c	/^typedef struct node {$/;"	s	file:
+node	test/rcu_test.c	/^typedef struct node {$/;"	s	file:
+node_alloc	map/list.c	/^static node_t *node_alloc (map_key_t key, map_val_t val) {$/;"	f	file:
+node_alloc	map/skiplist.c	/^static node_t *node_alloc (int num_levels, map_key_t key, map_val_t val) {$/;"	f	file:
+node_alloc	map/unsafe_skiplist.c	/^static node_t *node_alloc (int num_levels, map_key_t key, map_val_t val) {$/;"	f	file:
+node_alloc	test/rcu_test.c	/^node_t *node_alloc (void) {$/;"	f
+node_t	map/list.c	/^} node_t;$/;"	t	typeref:struct:node	file:
+node_t	map/skiplist.c	/^} node_t;$/;"	t	typeref:struct:node	file:
+node_t	map/unsafe_skiplist.c	/^} node_t;$/;"	t	typeref:struct:node	file:
+node_t	test/haz_test.c	/^} node_t;$/;"	t	typeref:struct:node	file:
+node_t	test/rcu_test.c	/^} node_t;$/;"	t	typeref:struct:node	file:
+ns_alloc	datatype/nstring.c	/^nstring_t *ns_alloc (uint32_t len) {$/;"	f
+ns_cmp	datatype/nstring.c	/^int ns_cmp (const nstring_t *ns1, const nstring_t *ns2) {$/;"	f
+ns_dup	datatype/nstring.c	/^nstring_t *ns_dup (const nstring_t *ns1) {$/;"	f
+ns_hash	datatype/nstring.c	/^uint32_t ns_hash (const nstring_t *ns) {$/;"	f
+nstring	include/nstring.h	/^typedef struct nstring {$/;"	s
+nstring_t	include/nstring.h	/^} nstring_t;$/;"	t	typeref:struct:nstring
+num_entries_copied	map/hashtable.c	/^    size_t num_entries_copied;$/;"	m	struct:hti	file:
+num_in_use	runtime/mem.c	/^    int num_in_use;$/;"	m	struct:header	file:
+num_in_use	runtime/mem2.c	/^    unsigned num_in_use:9;$/;"	m	struct:slab	file:
+num_keys_	test/perf_test.c	/^static size_t num_keys_;$/;"	v	file:
+num_levels	map/skiplist.c	/^    unsigned num_levels;$/;"	m	struct:node	file:
+num_levels	map/unsafe_skiplist.c	/^    int num_levels;$/;"	m	struct:node	file:
+num_threads_	runtime/rcu.c	/^static int num_threads_ = 0;$/;"	v	file:
+num_threads_	test/map_test1.c	/^static long num_threads_;$/;"	v	file:
+num_threads_	test/perf_test.c	/^static int num_threads_;$/;"	v	file:
+older	runtime/mem2.c	/^        struct metaslab *older; $/;"	m	struct:metaslab::__anon3	typeref:struct:metaslab::__anon3::metaslab	file:
+oldest	runtime/mem2.c	/^    slab_t *oldest;$/;"	m	struct:__anon6	file:
+oldest	runtime/mem2.c	/^    slab_t *oldest;$/;"	m	struct:__anon7	file:
+oldest_partial	runtime/mem.c	/^    header_t *oldest_partial;$/;"	m	struct:size_class	file:
+owner	runtime/mem.c	/^    uint8_t owner; \/\/ thread id of owner$/;"	m	struct:header	file:
+partial_slab_bitmap1	runtime/mem2.c	/^    uint8_t  partial_slab_bitmap1[NESTED_SLAB_CLASS_MAX+1]; $/;"	m	struct:metaslab	file:
+partial_slab_bitmap2	runtime/mem2.c	/^    uint64_t partial_slab_bitmap2[NESTED_32K_SLAB_CLASS_MAX+1];$/;"	m	struct:metaslab	file:
+pending	runtime/hazard.c	/^    pending_t *pending; \/\/ to be freed$/;"	m	struct:haz_local	file:
+pending	runtime/hazard.c	/^typedef struct pending {$/;"	s	file:
+pending_	runtime/rcu.c	/^static fifo_t *pending_[MAX_NUM_THREADS] = {};$/;"	v	file:
+pending_count	runtime/hazard.c	/^    int pending_count;$/;"	m	struct:haz_local	file:
+pending_size	runtime/hazard.c	/^    int pending_size;$/;"	m	struct:haz_local	file:
+pending_t	runtime/hazard.c	/^} pending_t;$/;"	t	typeref:struct:pending	file:
+perf_test_SRCS	makefile	/^perf_test_SRCS := $(RUNTIME_SRCS) $(MAP_SRCS) test\/perf_test.c$/;"	m
+pop_free_list	runtime/mem.c	/^static inline block_t *pop_free_list (tl_t *tl, int scale) {$/;"	f	file:
+pred	map/list.c	/^    node_t *pred;$/;"	m	struct:ll_iter	file:
+prev	runtime/mem.c	/^    struct header *prev;$/;"	m	struct:header	typeref:struct:header::header	file:
+print	include/map.h	/^    map_print_t  print;$/;"	m	struct:map_impl
+probe	map/hashtable.c	/^    int probe;$/;"	m	struct:ht	file:
+probe	map/hashtable.c	/^    int probe;$/;"	m	struct:hti	file:
+process_incoming_blocks	runtime/mem.c	/^static inline void process_incoming_blocks (tl_t *tl) {$/;"	f	file:
+ptr	runtime/hazard.c	/^    void * ptr; $/;"	m	struct:pending	file:
+put_range_	test/perf_test.c	/^static int get_range_, put_range_;$/;"	v	file:
+q	runtime/mem2.c	/^    } q[NESTED_SLAB_CLASS_MAX+1];$/;"	m	struct:metaslab	typeref:struct:metaslab::__anon3	file:
+ran	test/CuTest.h	/^	int ran;$/;"	m	struct:CuTest
+random_levels	map/skiplist.c	/^static int random_levels (skiplist_t *sl) {$/;"	f	file:
+random_levels	map/unsafe_skiplist.c	/^static int random_levels (skiplist_t *sl) {$/;"	f	file:
+rcu_	runtime/rcu.c	/^static uint64_t rcu_[MAX_NUM_THREADS][MAX_NUM_THREADS] = {};$/;"	v	file:
+rcu_defer_free	runtime/rcu.c	/^void rcu_defer_free (void *x) {$/;"	f
+rcu_last_posted_	runtime/rcu.c	/^static uint64_t rcu_last_posted_[MAX_NUM_THREADS][MAX_NUM_THREADS] = {};$/;"	v	file:
+rcu_test_SRCS	makefile	/^rcu_test_SRCS  := $(RUNTIME_SRCS) test\/rcu_test.c$/;"	m
+rcu_thread_init	runtime/rcu.c	/^void rcu_thread_init (void) {$/;"	f
+rcu_update	runtime/rcu.c	/^void rcu_update (void) {$/;"	f
+rdtsc	include/common.h	/^static inline uint64_t rdtsc (void) {$/;"	f
+rec	txn/txn.c	/^    update_t *rec;$/;"	m	struct:write_rec	file:
+ref_count	map/hashtable.c	/^    int ref_count;$/;"	m	struct:hti	file:
+remove	include/map.h	/^    map_remove_t remove;$/;"	m	struct:map_impl
+resize_pending	runtime/hazard.c	/^static void resize_pending (void) {$/;"	f	file:
+rnd_init	runtime/random.c	/^void rnd_init (void) {$/;"	f
+rnd_thread_init	runtime/random.c	/^void rnd_thread_init (void) {$/;"	f
+run_test	test/perf_test.c	/^uint64_t run_test (void) {$/;"	f
+rv	txn/txn.c	/^    version_t rv;$/;"	m	struct:txn	file:
+scale	map/hashtable.c	/^    uint8_t scale;$/;"	m	struct:hti	file:
+scale	runtime/mem.c	/^    uint8_t scale; \/\/ log2 of the block size$/;"	m	struct:header	file:
+scale	runtime/rcu.c	/^    uint32_t scale;$/;"	m	struct:fifo	file:
+search_hazards	runtime/hazard.c	/^static int search_hazards (void *p, haz_t *hazards, int n) {$/;"	f	file:
+size	test/CuTest.h	/^	int size;$/;"	m	struct:__anon1
+size_class	runtime/mem.c	/^typedef struct size_class {$/;"	s	file:
+size_class_t	runtime/mem.c	/^} size_class_t;$/;"	t	typeref:struct:size_class	file:
+skiplist_t	include/skiplist.h	/^typedef struct sl skiplist_t;$/;"	t	typeref:struct:sl
+sl	map/skiplist.c	/^struct sl {$/;"	s	file:
+sl	map/unsafe_skiplist.c	/^struct sl {$/;"	s	file:
+sl_alloc	map/skiplist.c	/^skiplist_t *sl_alloc (const datatype_t *key_type) {$/;"	f
+sl_alloc	map/unsafe_skiplist.c	/^skiplist_t *sl_alloc (const datatype_t *key_type) {$/;"	f
+sl_cas	map/skiplist.c	/^map_val_t sl_cas (skiplist_t *sl, map_key_t key, map_val_t expectation, map_val_t new_val) {$/;"	f
+sl_cas	map/unsafe_skiplist.c	/^map_val_t sl_cas (skiplist_t *sl, map_key_t key, map_val_t expectation, map_val_t new_val) {$/;"	f
+sl_count	map/skiplist.c	/^size_t sl_count (skiplist_t *sl) {$/;"	f
+sl_count	map/unsafe_skiplist.c	/^size_t sl_count (skiplist_t *sl) {$/;"	f
+sl_free	map/skiplist.c	/^void sl_free (skiplist_t *sl) {$/;"	f
+sl_free	map/unsafe_skiplist.c	/^void sl_free (skiplist_t *sl) {$/;"	f
+sl_iter	map/skiplist.c	/^struct sl_iter {$/;"	s	file:
+sl_iter	map/unsafe_skiplist.c	/^struct sl_iter {$/;"	s	file:
+sl_iter_begin	map/skiplist.c	/^sl_iter_t *sl_iter_begin (skiplist_t *sl, map_key_t key) {$/;"	f
+sl_iter_begin	map/unsafe_skiplist.c	/^sl_iter_t *sl_iter_begin (skiplist_t *sl, map_key_t key) {$/;"	f
+sl_iter_free	map/skiplist.c	/^void sl_iter_free (sl_iter_t *iter) {$/;"	f
+sl_iter_free	map/unsafe_skiplist.c	/^void sl_iter_free (sl_iter_t *iter) {$/;"	f
+sl_iter_next	map/skiplist.c	/^map_val_t sl_iter_next (sl_iter_t *iter, map_key_t *key_ptr) {$/;"	f
+sl_iter_next	map/unsafe_skiplist.c	/^map_val_t sl_iter_next (sl_iter_t *iter, map_key_t *key_ptr) {$/;"	f
+sl_iter_t	include/skiplist.h	/^typedef struct sl_iter sl_iter_t;$/;"	t	typeref:struct:sl_iter
+sl_lookup	map/skiplist.c	/^map_val_t sl_lookup (skiplist_t *sl, map_key_t key) {$/;"	f
+sl_lookup	map/unsafe_skiplist.c	/^map_val_t sl_lookup (skiplist_t *sl, map_key_t key) {$/;"	f
+sl_min_key	map/skiplist.c	/^map_key_t sl_min_key (skiplist_t *sl) {$/;"	f
+sl_min_key	map/unsafe_skiplist.c	/^map_key_t sl_min_key (skiplist_t *sl) {$/;"	f
+sl_print	map/skiplist.c	/^void sl_print (skiplist_t *sl, int verbose) {$/;"	f
+sl_print	map/unsafe_skiplist.c	/^void sl_print (skiplist_t *sl) {$/;"	f
+sl_remove	map/skiplist.c	/^map_val_t sl_remove (skiplist_t *sl, map_key_t key) {$/;"	f
+sl_remove	map/unsafe_skiplist.c	/^map_val_t sl_remove (skiplist_t *sl, map_key_t key) {$/;"	f
+slab	runtime/mem2.c	/^    slab_t slab;$/;"	m	struct:metaslab	file:
+slab	runtime/mem2.c	/^    slab_t slab[1 << (PAGE_SCALE - CHUNK_SCALE)];$/;"	m	struct:metaslab	file:
+slab	runtime/mem2.c	/^struct { slab_t *slab; char *slab_base; } ActiveSlab[SLAB_CLASS_MAX + 1] = {};$/;"	m	struct:__anon4	file:
+slab	runtime/mem2.c	/^typedef struct slab {$/;"	s	file:
+slab_base	runtime/mem2.c	/^struct { slab_t *slab; char *slab_base; } ActiveSlab[SLAB_CLASS_MAX + 1] = {};$/;"	m	struct:__anon4	file:
+slab_t	runtime/mem2.c	/^} __attribute__((packed)) slab_t;$/;"	t	typeref:struct:slab	file:
+slabs_in_use	runtime/mem2.c	/^    size_t slabs_in_use;$/;"	m	struct:__anon5	file:
+sort_hazards	runtime/hazard.c	/^static void sort_hazards (haz_t *hazards, int n) {$/;"	f	file:
+start_	test/perf_test.c	/^static volatile int start_, stop_, load_;$/;"	v	file:
+state	map/map.c	/^    void *state;$/;"	m	struct:map_iter	file:
+state	txn/txn.c	/^    txn_state_e state;$/;"	m	struct:txn	file:
+static_haz	runtime/hazard.c	/^    haz_t static_haz[STATIC_HAZ_PER_THREAD];$/;"	m	struct:haz_local	file:
+stk_	test/haz_test.c	/^static lifo_t *stk_;$/;"	v	file:
+stk_	test/rcu_test.c	/^static lifo_t *stk_;$/;"	v	file:
+stop_	test/perf_test.c	/^static volatile int start_, stop_, load_;$/;"	v	file:
+table	map/hashtable.c	/^    volatile entry_t *table;$/;"	m	struct:hti	file:
+tail	runtime/rcu.c	/^    uint32_t tail;$/;"	m	struct:fifo	file:
+tc	test/map_test2.c	/^    CuTest *tc;$/;"	m	struct:worker_data	file:
+test1	test/txn_test.c	/^void test1 (CuTest* tc) {$/;"	f
+timestamp	runtime/lwt.c	/^    uint64_t timestamp;$/;"	m	struct:lwt_record	file:
+tl	runtime/mem.c	/^typedef struct tl {$/;"	s	file:
+tl_	runtime/mem.c	/^static tl_t tl_[MAX_NUM_THREADS] = {};$/;"	v	file:
+tl_t	runtime/mem.c	/^} __attribute__((aligned(CACHE_LINE_SIZE))) tl_t;$/;"	t	typeref:struct:tl	file:
+total_bytes_allocated	runtime/mem2.c	/^    size_t total_bytes_allocated;$/;"	m	struct:__anon5	file:
+txn	txn/txn.c	/^struct txn {$/;"	s	file:
+txn_abort	txn/txn.c	/^void txn_abort (txn_t *txn) {$/;"	f
+txn_begin	txn/txn.c	/^txn_t *txn_begin (map_t *map) {$/;"	f
+txn_commit	txn/txn.c	/^txn_state_e txn_commit (txn_t *txn) {$/;"	f
+txn_map_get	txn/txn.c	/^map_val_t txn_map_get (txn_t *txn, map_key_t key) {$/;"	f
+txn_map_set	txn/txn.c	/^void txn_map_set (txn_t *txn, map_key_t key, map_val_t value) {$/;"	f
+txn_state_e	include/txn.h	/^typedef enum { TXN_RUNNING, TXN_VALIDATING, TXN_VALIDATED, TXN_ABORTED } txn_state_e;$/;"	t	typeref:enum:__anon8
+txn_t	include/txn.h	/^typedef struct txn txn_t;$/;"	t	typeref:struct:txn
+txn_test_SRCS	makefile	/^txn_test_SRCS  := $(RUNTIME_SRCS) $(MAP_SRCS) test\/txn_test.c test\/CuTest.c txn\/txn.c$/;"	m
+txn_validate	txn/txn.c	/^static txn_state_e txn_validate (txn_t *txn) {$/;"	f	file:
+uint16_t	include/common.h	/^typedef unsigned short     uint16_t;$/;"	t
+uint16_t	runtime/mem_class_calc.c	/^typedef unsigned short     uint16_t;$/;"	t	file:
+uint32_t	include/common.h	/^typedef unsigned int       uint32_t;$/;"	t
+uint32_t	runtime/mem_class_calc.c	/^typedef unsigned int     uint32_t;$/;"	t	file:
+uint64_t	include/common.h	/^typedef unsigned long long uint64_t;$/;"	t
+uint8_t	include/common.h	/^typedef unsigned char      uint8_t;$/;"	t
+uint8_t	runtime/mem_class_calc.c	/^typedef unsigned char      uint8_t;$/;"	t	file:
+unaligned_table_ptr	map/hashtable.c	/^    void *unaligned_table_ptr; \/\/ system malloc doesn't guarentee cache-line alignment$/;"	m	struct:hti	file:
+unlink	map/skiplist.c	/^enum unlink {$/;"	g	file:
+update_item	map/skiplist.c	/^static map_val_t update_item (node_t *item, map_val_t expectation, map_val_t new_val) {$/;"	f	file:
+update_rec	txn/txn.c	/^struct update_rec {$/;"	s	file:
+update_t	txn/txn.c	/^typedef struct update_rec update_t;$/;"	t	typeref:struct:update_rec	file:
+val	map/hashtable.c	/^    map_val_t val;$/;"	m	struct:entry	file:
+val	map/list.c	/^    map_val_t  val;$/;"	m	struct:node	file:
+val	map/skiplist.c	/^    map_val_t val;$/;"	m	struct:node	file:
+val	map/unsafe_skiplist.c	/^    map_val_t val;$/;"	m	struct:node	file:
+valid	runtime/mem2.c	/^    unsigned valid:1;$/;"	m	struct:slab	file:
+validate_key	txn/txn.c	/^static txn_state_e validate_key (txn_t *txn, map_key_t key) {$/;"	f	file:
+validate_scan	txn/txn.c	/^    size_t validate_scan;$/;"	m	struct:txn	file:
+value	txn/txn.c	/^    map_val_t value;$/;"	m	struct:update_rec	file:
+value1	runtime/lwt.c	/^    size_t value1;$/;"	m	struct:lwt_record	file:
+value2	runtime/lwt.c	/^    size_t value2;$/;"	m	struct:lwt_record	file:
+version	txn/txn.c	/^    version_t version; \/\/ tagged versions are txn_t pointers, untagged are actual version numbers$/;"	m	struct:update_rec	file:
+version_	txn/txn.c	/^static version_t version_ = 1;$/;"	v	file:
+version_t	txn/txn.c	/^typedef map_key_t version_t;$/;"	t	file:
+wait	test/map_test2.c	/^    volatile int *wait;$/;"	m	struct:worker_data	file:
+wait_	test/haz_test.c	/^static volatile int wait_;$/;"	v	file:
+wait_	test/map_test1.c	/^static volatile int wait_;$/;"	v	file:
+wait_	test/rcu_test.c	/^static volatile int wait_;$/;"	v	file:
+worker	test/haz_test.c	/^void *worker (void *arg) {$/;"	f
+worker	test/map_test1.c	/^void *worker (void *arg) {$/;"	f
+worker	test/perf_test.c	/^void *worker (void *arg) {$/;"	f
+worker	test/rcu_test.c	/^void *worker (void *arg) {$/;"	f
+worker_data	test/map_test2.c	/^typedef struct worker_data {$/;"	s	file:
+worker_data_t	test/map_test2.c	/^} worker_data_t;$/;"	t	typeref:struct:worker_data	file:
+write_rec	txn/txn.c	/^typedef struct write_rec {$/;"	s	file:
+write_rec_t	txn/txn.c	/^} write_rec_t;$/;"	t	typeref:struct:write_rec	file:
+writes	txn/txn.c	/^    write_rec_t *writes;$/;"	m	struct:txn	file:
+writes_count	txn/txn.c	/^    size_t writes_count;$/;"	m	struct:txn	file:
+writes_size	txn/txn.c	/^    size_t writes_size;$/;"	m	struct:txn	file:
+wv	txn/txn.c	/^    version_t wv;$/;"	m	struct:txn	file:
+x	runtime/lwt.c	/^    lwt_record_t x[0];$/;"	m	struct:lwt_buffer	file:
+x	runtime/rcu.c	/^    void *x[0];$/;"	m	struct:fifo	file:
