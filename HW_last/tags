@@ -1,0 +1,195 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Bucket	hashtable_lockfree.h	/^} Bucket;$/;"	t	typeref:struct:_Bucket
+Bucket	rtm/hash_hle/hashtable.h	/^} Bucket;$/;"	t	typeref:struct:_Bucket
+Bucket	rtm/hash_rtm/hashtable.h	/^} Bucket;$/;"	t	typeref:struct:_Bucket
+CPUID_HLE	test_tm/test_tsx.c	7;"	d	file:
+CPUID_RTM	test_tm/test_tsx.c	6;"	d	file:
+FAILED	hashtable_lockfree.h	16;"	d
+FAILED	rtm/hash_hle/hashtable.h	17;"	d
+FAILED	rtm/hash_rtm/hashtable.h	16;"	d
+HASH_INDEX	hashtable_lockfree.h	5;"	d
+HASH_INDEX	rtm/hash_hle/hashtable.h	5;"	d
+HASH_INDEX	rtm/hash_rtm/hashtable.h	5;"	d
+HASH_TABLE_INIT_SIZE	hashtable_lockfree.h	4;"	d
+HASH_TABLE_INIT_SIZE	rtm/hash_hle/hashtable.h	4;"	d
+HASH_TABLE_INIT_SIZE	rtm/hash_rtm/hashtable.h	4;"	d
+HashTable	hashtable_lockfree.h	/^} HashTable;$/;"	t	typeref:struct:_HashTable
+HashTable	rtm/hash_hle/hashtable.h	/^} HashTable;$/;"	t	typeref:struct:_HashTable
+HashTable	rtm/hash_rtm/hashtable.h	/^} HashTable;$/;"	t	typeref:struct:_HashTable
+Header	hashtable_lockfree.h	/^} Header;$/;"	t	typeref:struct:_Header
+Header	rtm/hash_hle/hashtable.h	/^} Header;$/;"	t	typeref:struct:_Header
+Header	rtm/hash_rtm/hashtable.h	/^} Header;$/;"	t	typeref:struct:_Header
+LOG_MSG	hashtable_lockfree.h	10;"	d
+LOG_MSG	hashtable_lockfree.h	8;"	d
+LOG_MSG	rtm/hash_hle/hashtable.h	10;"	d
+LOG_MSG	rtm/hash_hle/hashtable.h	8;"	d
+LOG_MSG	rtm/hash_rtm/hashtable.h	10;"	d
+LOG_MSG	rtm/hash_rtm/hashtable.h	8;"	d
+MAX	rtm/list_hle/list_cgl.cpp	9;"	d	file:
+MAX	rtm/list_rtm/list_cgl.cpp	8;"	d	file:
+MIN	rtm/list_hle/list_cgl.cpp	8;"	d	file:
+MIN	rtm/list_rtm/list_cgl.cpp	7;"	d	file:
+NUM_INSERT	rtm/list_hle/test_list.cpp	12;"	d	file:
+NUM_INSERT	rtm/list_rtm/test_list.cpp	12;"	d	file:
+Node	rtm/list_hle/listNode.h	/^}Node,*pNode;$/;"	t	typeref:struct:_Node
+Node	rtm/list_rtm/listNode.h	/^}Node,*pNode;$/;"	t	typeref:struct:_Node
+PASS	main.cpp	11;"	d	file:
+PASS	rtm/hash_hle/main.cpp	11;"	d	file:
+PASS	rtm/hash_rtm/main.cpp	11;"	d	file:
+SLEEP_DUR	rtm/list_hle/test_list.cpp	11;"	d	file:
+SLEEP_DUR	rtm/list_rtm/test_list.cpp	11;"	d	file:
+SUCCESS	hashtable_lockfree.h	15;"	d
+SUCCESS	rtm/hash_hle/hashtable.h	16;"	d
+SUCCESS	rtm/hash_rtm/hashtable.h	15;"	d
+TEST	main.cpp	10;"	d	file:
+TEST	rtm/hash_hle/main.cpp	10;"	d	file:
+TEST	rtm/hash_rtm/main.cpp	10;"	d	file:
+T_MAX	rtm/list_hle/test_list.cpp	10;"	d	file:
+T_MAX	rtm/list_rtm/test_list.cpp	10;"	d	file:
+_Bucket	hashtable_lockfree.h	/^typedef struct _Bucket$/;"	s
+_Bucket	rtm/hash_hle/hashtable.h	/^typedef struct _Bucket$/;"	s
+_Bucket	rtm/hash_rtm/hashtable.h	/^typedef struct _Bucket$/;"	s
+_HASH_TABLE_H_	hashtable_lockfree.h	2;"	d
+_HASH_TABLE_H_	rtm/hash_hle/hashtable.h	2;"	d
+_HASH_TABLE_H_	rtm/hash_rtm/hashtable.h	2;"	d
+_HashTable	hashtable_lockfree.h	/^typedef struct _HashTable$/;"	s
+_HashTable	rtm/hash_hle/hashtable.h	/^typedef struct _HashTable$/;"	s
+_HashTable	rtm/hash_rtm/hashtable.h	/^typedef struct _HashTable$/;"	s
+_Header	hashtable_lockfree.h	/^typedef struct _Header$/;"	s
+_Header	rtm/hash_hle/hashtable.h	/^typedef struct _Header$/;"	s
+_Header	rtm/hash_rtm/hashtable.h	/^typedef struct _Header$/;"	s
+_Node	rtm/list_hle/listNode.h	/^typedef struct _Node$/;"	s
+_Node	rtm/list_rtm/listNode.h	/^typedef struct _Node$/;"	s
+add	rtm/list_hle/list_cgl.cpp	/^bool list_cgl::add(int val)$/;"	f	class:list_cgl
+add	rtm/list_rtm/list_cgl.cpp	/^bool list_cgl::add(int val)$/;"	f	class:list_cgl
+allocNode	rtm/list_hle/listNode.cpp	/^pNode allocNode(int val)$/;"	f
+allocNode	rtm/list_rtm/listNode.cpp	/^pNode allocNode(int val)$/;"	f
+clockcycles_a	rtm/list_hle/test_list.cpp	/^int clockcycles_a[T_MAX];$/;"	v
+clockcycles_a	rtm/list_rtm/test_list.cpp	/^int clockcycles_a[T_MAX];$/;"	v
+clockcycles_arc	rtm/list_hle/test_list.cpp	/^int clockcycles_arc[T_MAX];$/;"	v
+clockcycles_arc	rtm/list_rtm/test_list.cpp	/^int clockcycles_arc[T_MAX];$/;"	v
+clockcycles_c	rtm/list_hle/test_list.cpp	/^int clockcycles_c[T_MAX];$/;"	v
+clockcycles_c	rtm/list_rtm/test_list.cpp	/^int clockcycles_c[T_MAX];$/;"	v
+clockcycles_r	rtm/list_hle/test_list.cpp	/^int clockcycles_r[T_MAX];$/;"	v
+clockcycles_r	rtm/list_rtm/test_list.cpp	/^int clockcycles_r[T_MAX];$/;"	v
+contains	rtm/list_hle/list_cgl.cpp	/^bool list_cgl::contains(int val)$/;"	f	class:list_cgl
+contains	rtm/list_rtm/list_cgl.cpp	/^bool list_cgl::contains(int val)$/;"	f	class:list_cgl
+content	rtm/hash_hle/sde-external-8.16.0-2018-01-30-lin/misc/cntrl_client.py	/^        content = json.load(f)$/;"	v
+content	rtm/hash_rtm/sde-external-8.16.0-2018-01-30-lin/misc/cntrl_client.py	/^        content = json.load(f)$/;"	v
+content	rtm/list_hle/sde-external-8.16.0-2018-01-30-lin/misc/cntrl_client.py	/^        content = json.load(f)$/;"	v
+content	rtm/list_rtm/sde-external-8.16.0-2018-01-30-lin/misc/cntrl_client.py	/^        content = json.load(f)$/;"	v
+cpu_has_hle	test_tm/test_tsx.c	/^static inline int cpu_has_hle(void)$/;"	f	file:
+cpu_has_rtm	test_tm/test_tsx.c	/^static inline int cpu_has_rtm(void)$/;"	f	file:
+dbgLogs	rtm/list_hle/list_cgl.cpp	/^FILE* dbgLogs;$/;"	v
+dbgLogs	rtm/list_rtm/list_cgl.cpp	/^FILE* dbgLogs;$/;"	v
+elem_num	hashtable_lockfree.h	/^	int elem_num;$/;"	m	struct:_HashTable
+elem_num	rtm/hash_hle/hashtable.h	/^	int elem_num;$/;"	m	struct:_HashTable
+elem_num	rtm/hash_rtm/hashtable.h	/^	int elem_num;$/;"	m	struct:_HashTable
+file_name	rtm/hash_hle/sde-external-8.16.0-2018-01-30-lin/misc/cntrl_client.py	/^file_name = sys.argv[1]$/;"	v
+file_name	rtm/hash_rtm/sde-external-8.16.0-2018-01-30-lin/misc/cntrl_client.py	/^file_name = sys.argv[1]$/;"	v
+file_name	rtm/list_hle/sde-external-8.16.0-2018-01-30-lin/misc/cntrl_client.py	/^file_name = sys.argv[1]$/;"	v
+file_name	rtm/list_rtm/sde-external-8.16.0-2018-01-30-lin/misc/cntrl_client.py	/^file_name = sys.argv[1]$/;"	v
+freeNode	rtm/list_hle/listNode.cpp	/^void freeNode(pNode node)$/;"	f
+freeNode	rtm/list_rtm/listNode.cpp	/^void freeNode(pNode node)$/;"	f
+hash_destroy	hashtable_lockfree.cpp	/^int hash_destroy(HashTable *ht)$/;"	f
+hash_destroy	rtm/hash_hle/hashtable.cpp	/^int hash_destroy(HashTable *ht)$/;"	f
+hash_destroy	rtm/hash_rtm/hashtable.cpp	/^int hash_destroy(HashTable *ht)$/;"	f
+hash_init	backup_hashtable_lockfree.c	/^int hash_init(HashTable *ht)$/;"	f
+hash_init	hashtable_lockfree.cpp	/^int hash_init(HashTable *ht)$/;"	f
+hash_init	rtm/hash_hle/hashtable.cpp	/^int hash_init(HashTable *ht)$/;"	f
+hash_init	rtm/hash_rtm/hashtable.cpp	/^int hash_init(HashTable *ht)$/;"	f
+hash_insert	hashtable_lockfree.cpp	/^int hash_insert(HashTable *ht,char *key, void *value)$/;"	f
+hash_insert	rtm/hash_hle/hashtable.cpp	/^int hash_insert(HashTable *ht,char *key, void *value)$/;"	f
+hash_insert	rtm/hash_rtm/hashtable.cpp	/^int hash_insert(HashTable *ht,char *key, void *value)$/;"	f
+hash_lookup	backup_hashtable_lockfree.c	/^int hash_lookup(HashTable *ht, char *key, void **result)$/;"	f
+hash_lookup	rtm/hash_hle/hashtable.cpp	/^int hash_lookup(HashTable *ht, char *key, void **result)$/;"	f
+hash_lookup	rtm/hash_rtm/hashtable.cpp	/^int hash_lookup(HashTable *ht, char *key, void **result)$/;"	f
+hash_remove	rtm/hash_hle/hashtable.cpp	/^int hash_remove(HashTable *ht, char *key)$/;"	f
+hash_remove	rtm/hash_rtm/hashtable.cpp	/^int hash_remove(HashTable *ht, char *key)$/;"	f
+hash_resize	hashtable_lockfree.cpp	/^static int hash_resize(HashTable *ht)$/;"	f	file:
+hash_resize	rtm/hash_hle/hashtable.cpp	/^static int hash_resize(HashTable *ht)$/;"	f	file:
+hash_resize	rtm/hash_rtm/hashtable.cpp	/^static int hash_resize(HashTable *ht)$/;"	f	file:
+hash_str	hashtable_lockfree.cpp	/^static int hash_str(char *key)$/;"	f	file:
+hash_str	rtm/hash_hle/hashtable.cpp	/^static int hash_str(char *key)$/;"	f	file:
+hash_str	rtm/hash_rtm/hashtable.cpp	/^static int hash_str(char *key)$/;"	f	file:
+head	rtm/list_hle/list_cgl.cpp	/^		pNode head;$/;"	m	class:list_cgl	file:
+head	rtm/list_rtm/list_cgl.cpp	/^		pNode head;$/;"	m	class:list_cgl	file:
+headers	hashtable_lockfree.h	/^	Header *headers;$/;"	m	struct:_HashTable
+headers	rtm/hash_hle/hashtable.h	/^	Header *headers;$/;"	m	struct:_HashTable
+headers	rtm/hash_rtm/hashtable.h	/^	Header *headers;$/;"	m	struct:_HashTable
+hle_init	rtm/hash_hle/hashtable.cpp	/^void hle_init(volatile int *val)$/;"	f
+hle_lock	rtm/hash_hle/hashtable.cpp	/^int hle_lock(volatile int *mutex_val)$/;"	f
+hle_lock	rtm/list_hle/list_cgl.cpp	/^int list_cgl::hle_lock()$/;"	f	class:list_cgl
+hle_release	rtm/hash_hle/hashtable.cpp	/^int hle_release(volatile int *mutex_val)$/;"	f
+hle_release	rtm/list_hle/list_cgl.cpp	/^int list_cgl::hle_release()$/;"	f	class:list_cgl
+key	hashtable_lockfree.h	/^	char *key;$/;"	m	struct:_Bucket
+key	rtm/hash_hle/hashtable.h	/^	char *key;$/;"	m	struct:_Bucket
+key	rtm/hash_rtm/hashtable.h	/^	char *key;$/;"	m	struct:_Bucket
+list_cgl	rtm/list_hle/list_cgl.cpp	/^class list_cgl$/;"	c	file:
+list_cgl	rtm/list_hle/list_cgl.cpp	/^list_cgl::list_cgl()$/;"	f	class:list_cgl
+list_cgl	rtm/list_rtm/list_cgl.cpp	/^class list_cgl$/;"	c	file:
+list_cgl	rtm/list_rtm/list_cgl.cpp	/^list_cgl::list_cgl()$/;"	f	class:list_cgl
+main	main.cpp	/^int main(int argc, char* argv[]){$/;"	f
+main	rtm/hash_hle/main.cpp	/^int main(int argc, char **argv) { $/;"	f
+main	rtm/hash_rtm/main.cpp	/^int main(int argc, char **argv) { $/;"	f
+main	rtm/list_hle/test_list.cpp	/^int main()$/;"	f
+main	rtm/list_rtm/test_list.cpp	/^int main()$/;"	f
+main	test_tm/test_tsx.c	/^int main(void) {$/;"	f
+mtx	rtm/list_rtm/list_cgl.cpp	/^		std::mutex mtx;$/;"	m	class:list_cgl	file:
+mtx_val	rtm/list_hle/list_cgl.cpp	/^		volatile int mtx_val;$/;"	m	class:list_cgl	file:
+mutex	hashtable_lockfree.h	/^	pthread_mutex_t mutex;$/;"	m	struct:_HashTable
+mutex	rtm/hash_rtm/hashtable.h	/^	pthread_mutex_t mutex;$/;"	m	struct:_Header
+mutex_val	rtm/hash_hle/hashtable.cpp	/^volatile int mutex_val;$/;"	v
+mutex_val	rtm/hash_hle/hashtable.h	/^	volatile int mutex_val;$/;"	m	struct:_Header
+next	hashtable_lockfree.h	/^	struct _Bucket *next;$/;"	m	struct:_Bucket	typeref:struct:_Bucket::_Bucket
+next	hashtable_lockfree.h	/^	struct _Bucket *next;$/;"	m	struct:_Header	typeref:struct:_Header::_Bucket
+next	rtm/hash_hle/hashtable.h	/^	struct _Bucket *next;$/;"	m	struct:_Bucket	typeref:struct:_Bucket::_Bucket
+next	rtm/hash_hle/hashtable.h	/^	struct _Bucket *next;$/;"	m	struct:_Header	typeref:struct:_Header::_Bucket
+next	rtm/hash_rtm/hashtable.h	/^	struct _Bucket *next;$/;"	m	struct:_Bucket	typeref:struct:_Bucket::_Bucket
+next	rtm/hash_rtm/hashtable.h	/^	struct _Bucket *next;$/;"	m	struct:_Header	typeref:struct:_Header::_Bucket
+next	rtm/list_hle/listNode.h	/^	_Node* next;$/;"	m	struct:_Node
+next	rtm/list_rtm/listNode.h	/^	_Node* next;$/;"	m	struct:_Node
+num_threads	main.cpp	/^static int num_threads ; $/;"	v	file:
+num_threads	rtm/hash_hle/main.cpp	/^static int num_threads = 4;$/;"	v	file:
+num_threads	rtm/hash_rtm/main.cpp	/^static int num_threads = 4;$/;"	v	file:
+pNode	rtm/list_hle/listNode.h	/^}Node,*pNode;$/;"	t	typeref:struct:_Node
+pNode	rtm/list_rtm/listNode.h	/^}Node,*pNode;$/;"	t	typeref:struct:_Node
+port	rtm/hash_hle/sde-external-8.16.0-2018-01-30-lin/misc/cntrl_client.py	/^        port = int(content['port'])$/;"	v
+port	rtm/hash_rtm/sde-external-8.16.0-2018-01-30-lin/misc/cntrl_client.py	/^        port = int(content['port'])$/;"	v
+port	rtm/list_hle/sde-external-8.16.0-2018-01-30-lin/misc/cntrl_client.py	/^        port = int(content['port'])$/;"	v
+port	rtm/list_rtm/sde-external-8.16.0-2018-01-30-lin/misc/cntrl_client.py	/^        port = int(content['port'])$/;"	v
+printAll	rtm/list_hle/list_cgl.cpp	/^void list_cgl::printAll()$/;"	f	class:list_cgl
+printAll	rtm/list_rtm/list_cgl.cpp	/^void list_cgl::printAll()$/;"	f	class:list_cgl
+remove	rtm/list_hle/list_cgl.cpp	/^bool list_cgl::remove(int val)$/;"	f	class:list_cgl
+remove	rtm/list_rtm/list_cgl.cpp	/^bool list_cgl::remove(int val)$/;"	f	class:list_cgl
+resize_hash_table_if_needed	hashtable_lockfree.cpp	/^static void resize_hash_table_if_needed(HashTable *ht)$/;"	f	file:
+resize_hash_table_if_needed	rtm/hash_hle/hashtable.cpp	/^static void resize_hash_table_if_needed(HashTable *ht)$/;"	f	file:
+resize_hash_table_if_needed	rtm/hash_rtm/hashtable.cpp	/^static void resize_hash_table_if_needed(HashTable *ht)$/;"	f	file:
+size	hashtable_lockfree.h	/^	int size;		$/;"	m	struct:_HashTable
+size	rtm/hash_hle/hashtable.h	/^	int size;		$/;"	m	struct:_HashTable
+size	rtm/hash_rtm/hashtable.h	/^	int size;		$/;"	m	struct:_HashTable
+sock	rtm/hash_hle/sde-external-8.16.0-2018-01-30-lin/misc/cntrl_client.py	/^        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)$/;"	v
+sock	rtm/hash_hle/sde-external-8.16.0-2018-01-30-lin/misc/cntrl_client.py	/^    sock = None$/;"	v
+sock	rtm/hash_rtm/sde-external-8.16.0-2018-01-30-lin/misc/cntrl_client.py	/^        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)$/;"	v
+sock	rtm/hash_rtm/sde-external-8.16.0-2018-01-30-lin/misc/cntrl_client.py	/^    sock = None$/;"	v
+sock	rtm/list_hle/sde-external-8.16.0-2018-01-30-lin/misc/cntrl_client.py	/^        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)$/;"	v
+sock	rtm/list_hle/sde-external-8.16.0-2018-01-30-lin/misc/cntrl_client.py	/^    sock = None$/;"	v
+sock	rtm/list_rtm/sde-external-8.16.0-2018-01-30-lin/misc/cntrl_client.py	/^        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)$/;"	v
+sock	rtm/list_rtm/sde-external-8.16.0-2018-01-30-lin/misc/cntrl_client.py	/^    sock = None$/;"	v
+testList	rtm/list_hle/test_list.cpp	/^void testList(int i)$/;"	f
+testList	rtm/list_rtm/test_list.cpp	/^void testList(int i)$/;"	f
+val	rtm/list_hle/listNode.h	/^	int val;$/;"	m	struct:_Node
+val	rtm/list_rtm/listNode.h	/^	int val;$/;"	m	struct:_Node
+value	hashtable_lockfree.h	/^	void *value;$/;"	m	struct:_Bucket
+value	rtm/hash_hle/hashtable.h	/^	void *value;$/;"	m	struct:_Bucket
+value	rtm/hash_rtm/hashtable.h	/^	void *value;$/;"	m	struct:_Bucket
+worker	main.cpp	/^void *worker(void *para) $/;"	f
+worker	rtm/hash_hle/main.cpp	/^void *worker(void *para) $/;"	f
+worker	rtm/hash_rtm/main.cpp	/^void *worker(void *para) $/;"	f
+~list_cgl	rtm/list_hle/list_cgl.cpp	/^list_cgl::~list_cgl()$/;"	f	class:list_cgl
+~list_cgl	rtm/list_rtm/list_cgl.cpp	/^list_cgl::~list_cgl()$/;"	f	class:list_cgl
